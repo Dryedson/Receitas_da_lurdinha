@@ -126,13 +126,6 @@ export default function RecipesContent() {
           </div>
         </div>
 
-        {/* Anúncio Google AdSense */}
-        <div className="mb-8">
-          <div className="bg-gray-200 rounded-lg p-4 text-center text-gray-600 min-h-[250px] flex items-center justify-center">
-            <p className="text-sm">Espaço reservado para anúncios</p>
-          </div>
-        </div>
-
         {/* Grid de receitas */}
         {filteredRecipes.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -148,12 +141,6 @@ export default function RecipesContent() {
           </div>
         )}
 
-        {/* Anúncio Google AdSense */}
-        <div className="mt-12">
-          <div className="bg-gray-200 rounded-lg p-4 text-center text-gray-600 min-h-[250px] flex items-center justify-center">
-            <p className="text-sm">Espaço reservado para anúncios</p>
-          </div>
-        </div>
       </div>
     </>
   );

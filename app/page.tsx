@@ -133,13 +133,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Anúncio Google AdSense */}
-      <div className="max-w-7xl mx-auto px-4 py-8">
-        <div className="bg-stone-100 rounded-xl p-4 text-center text-stone-500 min-h-[250px] flex items-center justify-center border border-stone-200">
-          <p className="text-sm">Espaço reservado para anúncios</p>
-        </div>
-      </div>
-
       {/* Receitas em Destaque */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
@@ -270,13 +263,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Anúncio Google AdSense */}
-      <div className="max-w-7xl mx-auto px-4 py-8">
-        <div className="bg-stone-100 rounded-xl p-4 text-center text-stone-500 min-h-[250px] flex items-center justify-center border border-stone-200">
-          <p className="text-sm">Espaço reservado para anúncios</p>
-        </div>
-      </div>
 
       {/* Categorias de Receitas - movida para o final da página */}
       <section className="py-16 px-4 bg-white">

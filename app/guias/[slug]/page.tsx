@@ -93,13 +93,6 @@ export default async function EpisodioPage({ params }: PageProps) {
           {episodio.introducao}
         </p>
 
-        {/* Espaço reservado para anúncio (Google AdSense) */}
-        <div className="mb-8">
-          <div className="bg-stone-100 rounded-lg p-4 text-center text-stone-500 min-h-[250px] flex items-center justify-center border border-stone-200">
-            <p className="text-sm">Espaço reservado para anúncios</p>
-          </div>
-        </div>
-
         {/* Ingredientes (exibido apenas em episódios-receita) */}
         {episodio.ingredientes && episodio.ingredientes.length > 0 && (
           <section className="mb-8 bg-emerald-50 rounded-xl p-6">

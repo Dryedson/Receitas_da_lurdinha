@@ -30,13 +30,6 @@ export default function GuiasPage() {
 
       {/* Conteúdo principal */}
       <div className="max-w-7xl mx-auto px-4 py-12">
-        {/* Espaço reservado para anúncio (Google AdSense) */}
-        <div className="mb-12">
-          <div className="bg-stone-100 rounded-lg p-4 text-center text-stone-500 min-h-[250px] flex items-center justify-center border border-stone-200">
-            <p className="text-sm">Espaço reservado para anúncios</p>
-          </div>
-        </div>
-
         {/* Cada série vira um bloco com seus episódios */}
         <div className="space-y-16">
           {series.map((serie) => (

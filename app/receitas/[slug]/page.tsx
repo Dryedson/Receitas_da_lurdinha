@@ -97,13 +97,6 @@ export default async function RecipePage({ params }: PageProps) {
           </div>
         </div>
 
-        {/* Anúncio Google AdSense */}
-        <div className="mb-8">
-          <div className="bg-gray-200 rounded-lg p-4 text-center text-gray-600 min-h-[250px] flex items-center justify-center">
-            <p className="text-sm">Espaço reservado para anúncios</p>
-          </div>
-        </div>
-
         {/* Grid com ingredientes e modo de preparo */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
           {/* Ingredientes */}
@@ -145,13 +138,6 @@ export default async function RecipePage({ params }: PageProps) {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
-
-        {/* Anúncio Google AdSense */}
-        <div className="mb-8">
-          <div className="bg-gray-200 rounded-lg p-4 text-center text-gray-600 min-h-[250px] flex items-center justify-center">
-            <p className="text-sm">Espaço reservado para anúncios</p>
           </div>
         </div>
 
