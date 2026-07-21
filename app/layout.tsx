@@ -19,6 +19,11 @@ export const metadata: Metadata = {
   description: "Bem-vindo às Receitas da Lurdinha! Receitas originais e deliciosas, além de curiosidades e dicas de culinária. Desde bolos até pratos principais, temos tudo que você precisa para impressionar na cozinha.",
   keywords: "receitas, curiosidades culinárias, dicas de cozinha, culinária, comida, bolos, pratos principais, sobremesas, receitas da lurdinha",
   authors: [{ name: "Receitas da Lurdinha" }],
+  icons: {
+    icon: "/logo-lurdinha.png",
+    shortcut: "/logo-lurdinha.png",
+    apple: "/logo-lurdinha.png",
+  },
   openGraph: {
     type: "website",
     locale: "pt_BR",
