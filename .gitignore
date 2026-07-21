@@ -17,6 +17,13 @@
 /.next/
 /out/
 
+# Artefatos-fantasma criados pelo iCloud (evita que o Tailwind v4 os escaneie e cause estouro de memoria)
+*.nosync
+.nosync
+*.nosync/
+# Pastas duplicadas geradas pelo iCloud (ex.: ".next 2", "node_modules 2")
+* [0-9]/
+
 # production
 /build
 

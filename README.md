@@ -1,36 +1,158 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍳 Receitas Deliciosas - Site de Receitas para Monetização com Google AdSense
 
-## Getting Started
+Um site moderno e otimizado de receitas originais e curiosidades de culinária, pronto para monetização via Google AdSense.
 
-First, run the development server:
+## 📋 Características
+
+- ✅ **Receitas Originais**: Conteúdo 100% único e reescrito
+- ✅ **Curiosidades de Culinária**: Dicas e curiosidades para engajamento
+- ✅ **Design Responsivo**: Tailwind CSS mobile-first
+- ✅ **Performance Otimizada**: Next.js 14 com Core Web Vitals
+- ✅ **SEO Completo**: Metadados dinâmicos, sitemap, robots.txt
+- ✅ **Documentos Legais**: Política de Privacidade, Termos de Uso, Política de Cookies
+- ✅ **Google AdSense Pronto**: Espaços para anúncios e configuração completa
+- ✅ **Categorias e Filtros**: Busca e filtro por categoria
+- ✅ **Imagens Otimizadas**: Next.js Image Component com lazy loading
+
+## 🚀 Começar Rápido
+
+### Pré-requisitos
+- Node.js 18+
+- npm ou yarn
+
+### Instalação
 
 ```bash
+# Clonar o repositório
+git clone <seu-repo>
+cd receitas-monetizadas
+
+# Instalar dependências
+npm install
+
+# Executar servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Estrutura do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+receitas-monetizadas/
+├── app/
+│   ├── layout.tsx              # Layout principal com Header e Footer
+│   ├── page.tsx                # Página inicial
+│   ├── receitas/
+│   │   ├── page.tsx            # Todas as receitas
+│   │   └── [slug]/
+│   │       └── page.tsx        # Página individual de receita
+│   ├── sobre/page.tsx          # Página sobre
+│   ├── politica-privacidade/   # Política de privacidade
+│   ├── termos-uso/             # Termos de uso
+│   └── politica-cookies/       # Política de cookies
+├── components/
+│   ├── Header.tsx              # Cabeçalho com navegação
+│   ├── Footer.tsx              # Rodapé
+│   └── RecipeCard.tsx          # Card de receita
+├── lib/
+│   └── recipes.ts              # Banco de dados de receitas
+├── public/
+│   ├── robots.txt              # Arquivo robots.txt para SEO
+│   └── images/                 # Pasta para imagens das receitas
+└── SETUP_ADSENSE.md            # Guia de configuração do AdSense
+```
 
-## Learn More
+## 📚 Receitas Incluídas
 
-To learn more about Next.js, take a look at the following resources:
+1. Bolo de Chocolate Intenso
+2. Frango Grelhado com Tempero Especial
+3. Salada Tropical com Vinagrete Cítrico
+4. Brigadeiro Gourmet de Café
+5. Pasta à Carbonara Autêntica
+6. Sopa de Abóbora com Gengibre
+7. Cookies de Aveia e Chocolate
+8. Risoto de Cogumelos Selvagens
+9. Smoothie Bowl de Açaí
+10. Pão Caseiro de Fermentação Natural
+11. Ceviche Peruano Tradicional
+12. Torta de Maçã com Canela
+13. Tacos de Carnitas Mexicanos
+14. Quiche de Brócolis e Queijo
+15. Pudim de Leite Condensado
+16. Steak com Molho de Vinho Tinto
+17. Pavê de Chocolate
+18. Frittata de Vegetais
+19. Molho Pesto Caseiro
+20. Soufflé de Queijo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔧 Configuração do Google AdSense
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Veja o arquivo [SETUP_ADSENSE.md](./SETUP_ADSENSE.md) para instruções completas sobre:
+- Como obter seu ID do AdSense
+- Como configurar o site para aprovação
+- Otimizações recomendadas
+- Checklist de verificação final
 
-## Deploy on Vercel
+## 🎨 Personalizações
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Adicionar Imagens
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Coloque as imagens em `public/images/`
+2. Atualize os caminhos em `lib/recipes.ts`
+
+### Mudar Cores
+
+Edite as classes Tailwind nos componentes:
+- Header: `from-orange-500 to-red-500`
+- Botões: `bg-orange-500`
+
+### Configurar Email de Contato
+
+Em `app/sobre/page.tsx`, substitua o email em:
+```tsx
+href="mailto:seu-email@exemplo.com"
+```
+
+## 📊 Performance
+
+O site foi otimizado para:
+- **LCP**: < 2.5s
+- **FID**: < 100ms
+- **CLS**: < 0.1
+
+Verifique com [PageSpeed Insights](https://pagespeed.web.dev/)
+
+## 🚀 Deploy no Vercel
+
+```bash
+# Instalar Vercel CLI
+npm i -g vercel
+
+# Fazer deploy
+vercel deploy
+```
+
+Ou conecte seu repositório GitHub ao Vercel para deploy automático.
+
+## 📝 Documentação
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+- [Google AdSense Help](https://support.google.com/adsense)
+
+## 📄 Licença
+
+Este projeto é fornecido como está para fins educacionais e comerciais.
+
+## 🤝 Contribuições
+
+Sinta-se livre para fazer fork, modificar e usar este projeto para seus próprios fins.
+
+## 📞 Suporte
+
+Para dúvidas sobre o projeto, consulte a documentação incluída ou visite os links de suporte acima.
+
+---
+
+**Desenvolvido com ❤️ para monetização via Google AdSense**
