@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://receitas-da-lurdinha.com",
+    url: "https://receitasdalurdinha.com.br",
     title: "Receitas da Lurdinha",
     description: "Receitas originais e de qualidade da Lurdinha",
   },

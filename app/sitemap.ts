@@ -17,49 +17,55 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // URLs estáticas
   const staticUrls: MetadataRoute.Sitemap = [
     {
-      url: 'https://receitas-deliciosas.com',
+      url: 'https://receitasdalurdinha.com.br',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1,
     },
     {
-      url: 'https://receitas-deliciosas.com/receitas',
+      url: 'https://receitasdalurdinha.com.br/receitas',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: 'https://receitas-deliciosas.com/curiosidades',
+      url: 'https://receitasdalurdinha.com.br/curiosidades',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: 'https://receitas-deliciosas.com/guias',
+      url: 'https://receitasdalurdinha.com.br/guias',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: 'https://receitas-deliciosas.com/sobre',
+      url: 'https://receitasdalurdinha.com.br/sobre',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
-      url: 'https://receitas-deliciosas.com/politica-privacidade',
+      url: 'https://receitasdalurdinha.com.br/contato',
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.7,
+    },
+    {
+      url: 'https://receitasdalurdinha.com.br/politica-privacidade',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 0.5,
     },
     {
-      url: 'https://receitas-deliciosas.com/termos-uso',
+      url: 'https://receitasdalurdinha.com.br/termos-uso',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 0.5,
     },
     {
-      url: 'https://receitas-deliciosas.com/politica-cookies',
+      url: 'https://receitasdalurdinha.com.br/politica-cookies',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 0.5,
@@ -68,7 +74,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // URLs dinâmicas das receitas
   const recipeUrls: MetadataRoute.Sitemap = recipes.map((recipe) => ({
-    url: `https://receitas-deliciosas.com/receitas/${recipe.slug}`,
+    url: `https://receitasdalurdinha.com.br/receitas/${recipe.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
@@ -76,7 +82,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // URLs dinâmicas das curiosidades
   const curiosidadeUrls: MetadataRoute.Sitemap = curiosidades.map((c) => ({
-    url: `https://receitas-deliciosas.com/curiosidades/${c.slug}`,
+    url: `https://receitasdalurdinha.com.br/curiosidades/${c.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
@@ -84,7 +90,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // URLs dinâmicas dos episódios das séries/guias
   const guiaUrls: MetadataRoute.Sitemap = episodios.map((e) => ({
-    url: `https://receitas-deliciosas.com/guias/${e.slug}`,
+    url: `https://receitasdalurdinha.com.br/guias/${e.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.7,

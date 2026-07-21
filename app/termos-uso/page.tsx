@@ -20,7 +20,7 @@ export default function TermsOfUse() {
 
           <h2 className="text-2xl font-bold text-gray-800 mt-8 mb-4">1. Aceitação dos Termos</h2>
           <p className="text-gray-700 mb-4">
-            Ao acessar e usar o site Receitas Deliciosas, você aceita estar vinculado por estes Termos de Uso. Se você não concordar com qualquer parte destes termos, não use nosso site.
+            Ao acessar e usar o site Receitas da Lurdinha (receitasdalurdinha.com.br), você aceita estar vinculado por estes Termos de Uso. Se você não concordar com qualquer parte destes termos, não use nosso site.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-800 mt-8 mb-4">2. Uso Licenciado</h2>
@@ -42,7 +42,7 @@ export default function TermsOfUse() {
 
           <h2 className="text-2xl font-bold text-gray-800 mt-8 mb-4">4. Limitações de Responsabilidade</h2>
           <p className="text-gray-700 mb-4">
-            Em nenhum caso a Receitas Deliciosas ou seus fornecedores serão responsáveis por danos (incluindo, sem limitação, danos por perda de dados ou lucro, ou devido a interrupção de negócios) decorrentes do uso ou da incapacidade de usar o material em nosso site.
+            Em nenhum caso o Receitas da Lurdinha ou seus fornecedores serão responsáveis por danos (incluindo, sem limitação, danos por perda de dados ou lucro, ou devido a interrupção de negócios) decorrentes do uso ou da incapacidade de usar o material em nosso site.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-800 mt-8 mb-4">5. Precisão do Material</h2>
@@ -67,7 +67,7 @@ export default function TermsOfUse() {
 
           <h2 className="text-2xl font-bold text-gray-800 mt-8 mb-4">9. Contato</h2>
           <p className="text-gray-700 mb-4">
-            Se você tiver dúvidas sobre estes Termos de Uso, entre em contato conosco através do formulário de contato em nosso site.
+            Se você tiver dúvidas sobre estes Termos de Uso, entre em contato conosco pelo email lreceitas9@gmail.com ou pela página /contato.
           </p>
         </div>
       </div>

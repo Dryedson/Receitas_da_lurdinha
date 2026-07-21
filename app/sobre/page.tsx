@@ -141,7 +141,7 @@ export default function AboutPage() {
             Adoraríamos ouvir de você! Se tiver sugestões, dúvidas ou comentários, entre em contato conosco.
           </p>
           <a
-            href="mailto:contato@receitas-deliciosas.com"
+            href="mailto:lreceitas9@gmail.com"
             className="inline-block bg-orange-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-orange-600 transition"
           >
             Entre em Contato

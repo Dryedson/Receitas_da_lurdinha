@@ -20,7 +20,7 @@ export default function PrivacyPolicy() {
 
           <h2 className="text-2xl font-bold text-gray-800 mt-8 mb-4">1. Introdução</h2>
           <p className="text-gray-700 mb-4">
-            A Receitas Deliciosas ("nós", "nosso" ou "nos") opera o site Receitas Deliciosas. Esta página informa você sobre nossas políticas sobre a coleta, uso e divulgação de dados pessoais quando você usa nosso site e as escolhas que você tem associadas a esses dados.
+            O site Receitas da Lurdinha ("nós", "nosso" ou "nos") opera o site receitasdalurdinha.com.br. Esta página informa você sobre nossas políticas sobre a coleta, uso e divulgação de dados pessoais quando você usa nosso site e as escolhas que você tem associadas a esses dados.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-800 mt-8 mb-4">2. Coleta e Uso de Dados</h2>
@@ -73,7 +73,7 @@ export default function PrivacyPolicy() {
 
           <h2 className="text-2xl font-bold text-gray-800 mt-8 mb-4">7. Contato Conosco</h2>
           <p className="text-gray-700 mb-4">
-            Se você tiver dúvidas sobre esta Política de Privacidade, entre em contato conosco através do formulário de contato em nosso site.
+            Se você tiver dúvidas sobre esta Política de Privacidade, entre em contato conosco pelo email lreceitas9@gmail.com ou através da página /contato.
           </p>
         </div>
       </div>

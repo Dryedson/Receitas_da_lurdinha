@@ -3,7 +3,7 @@ Allow: /
 Disallow: /admin
 Disallow: /private
 
-Sitemap: https://receitas-deliciosas.com/sitemap.xml
+Sitemap: https://receitasdalurdinha.com.br/sitemap.xml
 
 # Google
 User-agent: Googlebot

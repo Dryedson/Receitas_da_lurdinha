@@ -49,6 +49,11 @@ export default function Footer() {
                   Sobre
                 </Link>
               </li>
+              <li>
+                <Link href="/contato" className="hover:text-orange-500 transition">
+                  Contato
+                </Link>
+              </li>
             </ul>
           </div>
 

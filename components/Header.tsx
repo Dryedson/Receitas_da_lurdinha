@@ -85,6 +85,9 @@ export default function Header() {
             <Link href="/sobre" className="px-3 py-2 rounded-lg text-stone-700 font-medium hover:bg-amber-50 hover:text-amber-700 transition">
               Sobre
             </Link>
+            <Link href="/contato" className="px-3 py-2 rounded-lg text-stone-700 font-medium hover:bg-amber-50 hover:text-amber-700 transition">
+              Contato
+            </Link>
           </nav>
 
           {/* Botão menu mobile */}
@@ -135,6 +138,9 @@ export default function Header() {
             </Link>
             <Link href="/sobre" className="px-3 py-2 rounded-lg text-stone-700 font-medium hover:bg-amber-50 hover:text-amber-700 transition">
               Sobre
+            </Link>
+            <Link href="/contato" className="px-3 py-2 rounded-lg text-stone-700 font-medium hover:bg-amber-50 hover:text-amber-700 transition">
+              Contato
             </Link>
           </nav>
         )}

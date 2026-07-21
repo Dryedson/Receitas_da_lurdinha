@@ -74,7 +74,7 @@ export default function CookiePolicy() {
 
           <h2 className="text-2xl font-bold text-gray-800 mt-8 mb-4">8. Contato</h2>
           <p className="text-gray-700 mb-4">
-            Se você tiver dúvidas sobre esta Política de Cookies, entre em contato conosco através do formulário de contato em nosso site.
+            Se você tiver dúvidas sobre esta Política de Cookies, entre em contato conosco pelo email lreceitas9@gmail.com ou pela página /contato.
           </p>
         </div>
       </div>
