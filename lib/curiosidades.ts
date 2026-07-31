@@ -245,303 +245,403 @@ export const curiosidades: Curiosidade[] = [
   },
   {
     id: '12',
-    slug: 'como-temperar-carne-perfeita',
-    titulo: 'Como temperar carne de churrasco perfeita: técnicas infalíveis',
+    slug: 'como-temperar-carne-de-churrasco-perfeita',
+    titulo: 'Como temperar carne de churrasco perfeita: o guia completo da Lurdinha',
     emoji: '🥩',
     categoria: 'Técnica de Cozinha',
     resumo:
-      'Descubra segredos para temperar carne de churrasco que deixam qualquer corte suculento e cheio de sabor, do sal grosso ao tempo de descanso.',
+      'Aprenda a temperar carne de churrasco com técnicas detalhadas que a Lurdinha usa em casa para deixar picanha, alcatra e contrafilé suculentos e cheios de sabor.',
     imagem: '/images/artigo-temperar-carne.jpg',
     introducao:
-      'Temperar carne de churrasco parece simples, mas pequenos detalhes fazem toda a diferença entre um corte sem graça e uma experiência memorável. A combinação certa de sal, temperos, tempo de descanso e controle do fogo transforma até o corte mais simples em um prato de restaurante. Neste artigo, você vai aprender técnicas práticas para temperar carne de churrasco perfeita sem complicação.',
+      'Desde que comecei a cozinhar para a família, o churrasco de domingo virou tradição aqui em casa. No começo, errava feio: a carne saía sem sabor, ou então ficava salgada demais, ou ressecava na grelha. Com o tempo, fui testando cada detalhe e descobri que temperar carne de churrasco é muito mais do que jogar sal por cima. O corte, a quantidade de sal, o tempo de descanso e até a temperatura da grelha fazem toda a diferença. Neste guia, vou contar passo a passo o que aprendi ao longo dos anos para você fazer um churrasco perfeito na próxima vez.',
     secoes: [
       {
-        subtitulo: 'Escolha do sal e a quantidade certa',
+        subtitulo: 'O tipo de sal faz diferença',
         texto:
-          'O sal grosso é o grande aliado do churrasco. Ele forma uma crosta que sele a carne e mantém os sucos internos. A dica é salgar generosamente poucos minutos antes de colocar na grelha. Quanto mais cedo você salga, mais a carne perde líquido e pode ressecar. Para carnes mais grossas, salgue 10 minutos antes. Para cortes finos, 5 minutos é suficiente.',
+          'Eu uso sal grosso moído na hora para churrasco. O sal grosso comum também funciona, mas prefiro o moído grosso porque adere melhor à carne e forma uma crosta dourada sem ficar excessivamente salgado. Para cada quilo de carne, uso cerca de duas colheres de chá de sal grosso. O segredo é salgar poucos minutos antes de levar à grelha: para cortes finos, como maminha, salgo cinco minutos antes. Para cortes mais grossos, como picanha, deixo dez minutos. Salgar muito cedo faz a carne perder líquido e ressecar.',
       },
       {
-        subtitulo: 'Aromatize com alho, limão e ervas',
+        subtitulo: 'Temperos que acompanham sem roubar a cena',
         texto:
-          'Além do sal, um tempero básico de alho amassado, limão e azeite realça o sabor da carne sem esconder a sua essência. Você pode adicionar chimichurri, alecrim ou tomilho para variar. O importante é não exagerar: o tempero deve complementar, não dominar. Experimente massagear a carne para que os aromas penetrem melhor.',
+          'No meu churrasco, o sal quase sempre é o protagonista, mas gosto de aromatizar com alho amassado, limão e azeite quando quero variar. Faço uma pastinha rápida com quatro dentes de alho, suco de meio limão e três colheres de sopa de azeite. Espalho essa mistura com as mãos pelo corte, massagando levemente. Às vezes adiciono chimichurri caseiro ou alecrim fresco. O importante é equilibrar: se o tempero for muito forte, você não sente o gosto da carne.',
       },
       {
-        subtitulo: 'O tempo de descanso antes de cortar',
+        subtitulo: 'Fogo e grelha no ponto certo',
         texto:
-          'Após retirar a carne da grelha, deixe-a descansar por 5 a 10 minutos. Esse descanso permite que os sucos se redistribuam pelo corte, garantindo cada fatia suculenta. Se cortar logo, os sucos escorrem e a carne fica seca. Paciência é o segredo de um churrasco perfeito.',
+          'Brasa viva e grelha quente são essenciais para selar a carne. Quando a grelha está bem aquecida, coloco o corte e deixo dois minutos de cada lado sem mexer. Isso cria uma crosta dourada que segura os sucos dentro. Depois, abaixo um pouco o fogo e termino o cozimento vira-vira conforme a espessura. Para picanha, gosto de selar bem e deixar o centro rosado. Para alcatra, prefiro grelhar mais um pouco para ficar macia sem ficar seca.',
+      },
+      {
+        subtitulo: 'O descanso que salva o suculento',
+        texto:
+          'Quando tiro a carne da grelha, envolvo em papel-alumínio e deixo descansar de cinco a dez minutos antes de cortar. Esse descanso é sagrado: durante esse tempo, os sucos se redistribuem e cada fatia fica suculenta. Já cortei cedo demais e vi o suco escorrer no prato. Aprendi na marra que a paciência é o último tempero do churrasco.',
+      },
+      {
+        subtitulo: 'Combinações que adoro servir',
+        texto:
+          'Na minha mesa de churrasco, a carma nunca anda sozinha. Farofa de bacon e ovos, vinagrete de cebola roxa e pimentão, pão de alho caseiro e uma salada de tomate com cebola completam o prato. Para bebida, um suco de laranja natural ou um chá gelado de limão ficam perfeitos. Essas combinações transformam o churrasco em uma refeição completa e especial.',
       },
     ],
-    cta: 'Qual é o seu corte favorito para churrasco? Conta para a Lurdinha nos comentários!',
+    cta: 'Me conta: qual corte de carne você mais gosta de colocar no churrasco? Picanha, maminha ou contrafilé?',
   },
   {
     id: '13',
-    slug: 'dicas-cafe-manha-saudavel',
-    titulo: 'Café da manhã saudável: como começar o dia com energia',
+    slug: 'cafe-da-manha-saudavel-para-toda-semana',
+    titulo: 'Café da manhã saudável para toda a semana: o que a Lurdinha prepara em casa',
     emoji: '🍳',
     categoria: 'Nutrição e Bem-estar',
     resumo:
-      'Aprenda a montar um café da manhã saudável, balanceado e saboroso, com combinações que mantêm a saciedade e o astral até o meio-dia.',
+      'Descubra como montar um café da manhã saudável, prático e saboroso, com combinações que a Lurdinha usa para manter a energia das irmãs até o meio-dia.',
     imagem: '/images/artigo-cafe-manha.jpg',
     introducao:
-      'O café da manhã é a refeição mais importante do dia, mas muita gente acaba recorrendo a pães brancos e achocolatados cheios de açúcar. A boa notícia é que com algumas trocas simples, você pode começar a manhã com energia de sobra. Neste artigo, vamos mostrar como montar um café da manhã saudável, gostoso e prático para o dia a dia.',
+      'Por muitos anos, o café da manhã aqui em casa era pão francês com manteiga e um café forte. Só percebi que precisava mudar quando minha filha começou a sentir fome uma hora depois de sair de casa. Fui testando combinações e descobri que um café da manhã saudável não precisa ser sem graça. Pelo contrário: com ovos, frutas, pães bons e um pouco de planejamento, dá para começar o dia com energia e disposição. Neste artigo, compartilho as combinações que viram rotina por aqui.',
     secoes: [
       {
-        subtitulo: 'Priorize proteínas e gorduras boas',
+        subtitulo: 'Proteína no prato para segurar a fome',
         texto:
-          'Ovos, queijo cottage, pasta de amendoim e iogurte natural são ótimas fontes de proteína. Eles ajudam a manter a saciedade por mais tempo e evitam aquela vontade de beliscar antes do almoço. Combine com abacate, castanhas ou azeite para incluir gorduras saudáveis que fazem bem para o cérebro.',
+          'Ovos são meus grandes aliados no café da manhã. Faço mexido com azeite, omelete recheada com espinafre ou ovos cozidos no fim de semana para a semana toda. Queijo cottage, iogurte natural e pasta de amendoim também entram na mesa. A proteína ajuda a manter a saciedade e evita aquela vontade de beliscar antes do almoço. Quando incluo ovos no café, sinto que o dia rende mais.',
       },
       {
-        subtitulo: 'Inclua fibras e frutas',
+        subtitulo: 'Fibras e frutas para o corpo funcionar direito',
         texto:
-          'Pães integrais, aveia, linhaça e frutas da estação trazem fibras, vitaminas e minerais essenciais. Uma fatia de pão integral com abacate e ovo, acompanhada de uma fruta, já é um café completo. Evite sucos industrializados e prefira a fruta inteira, que tem mais fibra e menos açúcar concentrado.',
+          'Troquei o pão branco pelo integral e a diferença foi enorme. Hoje, gosto de uma fatia de pão de fermentação natural com abacate e um ovo, acompanhada de uma fruta da estação. Morango, mamão, banana e maçã são opções baratas e saborosas. Troquei sucos caixa por fruta inteira, porque a fibra faz falta. Uma tigelinha de aveia com canela e frutas secas também entra na rotina quando faz frio.',
       },
       {
-        subtitulo: 'Hidrate-se logo cedo',
+        subtitulo: 'Hidratação antes do primeiro gole de café',
         texto:
-          'Muitas vezes confundimos sede com fome. Comece o dia com um copo de água antes mesmo do café. Café e chás são bem-vindos, mas a água é essencial para acordar o organismo e ajudar a digestão.',
+          'Sempre que acordo, tomo um copo de água antes de qualquer coisa. Foi difícil criar o hábito, mas senti que a digestão melhorou e a disposição também. Depois do café da manhã, gosto de um café passado na hora ou um chá verde. Evito refrigerantes e sucos industrializados no início do dia, porque o açúcar derruba a energia antes mesmo de meio-dia.',
+      },
+      {
+        subtitulo: 'Cardápios práticos que uso na correria',
+        texto:
+          'Na semana, preparo potinhos de iogurte com frutas e sementes, ovos cozidos e pães congelados. Assim consigo montar o café em menos de cinco minutos. Um exemplo: iogurte natural com banana, aveia e castanha-do-pará. Outro: pão integral com queijo branco, tomate e orégano, acompanhado de mamão. Essas combinações são simples, baratas e satisfazem.',
+      },
+      {
+        subtitulo: 'Erros que eu já cometi e você pode evitar',
+        texto:
+          'Pular o café da manhã foi meu maior erro. Sem comer, eu compensava no almoço comendo demais e ficava com sono à tarde. Outro erro foi exagerar no açúcar: achava que achocolatado dava energia, mas na verdade me deixava com fome mais cedo. Hoje, o segredo é equilibrar proteína, fibra e gordura boa para um café que sustenta.',
       },
     ],
-    cta: 'Qual é a sua combinação preferida para o café da manhã? Compartilhe com a gente!',
+    cta: 'Qual café da manhã te faz sentir mais disposto durante a manhã? Conta sua experiência!',
   },
   {
     id: '14',
-    slug: 'segredos-massas-italianas',
-    titulo: 'Segredos das massas italianas que todo mundo deveria conhecer',
+    slug: 'massa-italiana-em-casa-segredos-da-lurdinha',
+    titulo: 'Massa italiana em casa: os segredos que aprendi cozinhando para minha família',
     emoji: '🍝',
     categoria: 'Técnica de Cozinha',
     resumo:
-      'Descubra os truques por trás de uma massa italiana autêntica, do cozimento ao molho, para impressionar em casa sem ser chef.',
+      'Aprenda a fazer massa italiana em casa com técnicas práticas de cozimento, finalização e escolha de molhos que a Lurdinha usa no dia a dia.',
     imagem: '/images/artigo-massas-italianas.jpg',
     introducao:
-      'A culinária italiana é amada no mundo todo, mas poucos sabem que os segredos de uma boa massa estão nos detalhes. Cozimento, escolha do molho, finalização e até a água do cozimento fazem diferença. Neste artigo, você vai aprender técnicas simples para transformar seu prato de massa em uma verdadeira experiência italiana em casa.',
+      'Quando me casei, meu marido adorava massa e eu cozinhava macarrão como todo mundo: jogava no fogão, escorria e despejava o molho por cima. O resultado era bom, mas nada especial. Só quando uma amiga italiana me ensinou os segredos da massa italiana em casa é que tudo mudou. Descobri que cozinhar a massa al dente, salvar a água do cozimento e finalizar no molho transformam um prato simples em algo digno de restaurante. Aqui vou contar tudo o que aprendi.',
     secoes: [
       {
-        subtitulo: 'Água do cozimento é ouro líquido',
+        subtitulo: 'A água do cozimento é ouro na cozinha',
         texto:
-          'Sempre reserve uma concha da água do cozimento antes de escorrer a massa. Essa água com amido é o segredo para emulsificar o molho e deixá-lo grudadinho no espaguete. Misture a massa ao molho ainda no fogo, adicionando aos poucos a água do cozimento até criar um creme sedoso.',
+          'Sempre que cozinho massa, antes de escorrer, pego com uma concha de meia xícara da água do cozimento. Essa água está cheia de amido e é o segredo para deixar o molho grudadinho na massa. Quando passo o espaguete para a panela do molho, vou adicionando a água do cozimento aos poucos e mexendo bem. O resultado é um creme sedoso que envolve cada fio de macarrão. Sem essa água, a massa fica seca e sem brilho.',
       },
       {
-        subtitulo: 'Não lave a massa depois de cozinhar',
+        subtitulo: 'Sal na água e nunca enxágue a massa',
         texto:
-          'Lavar a massa sob água fria remove o amido natural que ajuda o molho a aderir. Escorra a massa al dente e leve diretamente para a panela do molho. A única exceção é para saladas de macarrão, onde você quer parar o cozimento.',
+          'Uma dica básica que muita gente esquece: a água do cozimento precisa estar salgada, como o mar. Coloco uma colher de sopa cheia de sal para cada quatro litros de água. Outra coisa que aprendi foi nunca lavar a massa na água fria depois de cozinhar. A água fria remove o amido e faz com que o molho escorra. Só escorro e levo direto para o molho. A exceção é para salada de macarrão, onde eu quero parar o cozimento.',
       },
       {
-        subtitulo: 'Combine o formato com o molho certo',
+        subtitulo: 'Cada massa tem o seu molho ideal',
         texto:
-          'Espaguete vai bem com molhos leves e oleosos, como o aglio e olio. Penne e rigatoni seguram molhos mais encorpados porque o molho entra dentro do formato. Para molhos cremosos, escolha fettuccine ou pappardelle. Respeitar essa combinação faz toda a diferença na experiência.',
+          'Espaguete combina com molhos leves, como aglio e olio ou pomodoro. Já penne e rigatoni seguram molhos encorpados porque o molho entra nos canudinhos. Fettuccine e pappardelle ficam perfeitos com molhos cremosos, como o Alfredo. Para gnocchi, prefiro molhos mais leves de tomate com manjericão. Quando respeito essa combinação, cada garfada fica harmoniosa.',
+      },
+      {
+        subtitulo: 'Finalização no fogo com manteiga e queijo',
+        texto:
+          'Depois de misturar a massa ao molho, desligo o fogo e adiciono um pedaço de manteiga ou um fio de azeite de boa qualidade. Polvilho queijo parmesão ralado na hora e finalizo com ervas frescas, como manjericão ou salsinha. Esse toque final dá brilho, sabor e um cheiro que conquista qualquer um. Quando sirvo assim, minha família sempre elogia.',
+      },
+      {
+        subtitulo: 'Meu molho de tomate caseiro preferido',
+        texto:
+          'Para um molho rápido, refogo meia cebola picada em azeite, adiciono três tomates maduros sem pele e sem semente, uma pitada de açúcar para cortar a acidez, sal e manjericão fresco. Deixo cozinhar por vinte minutos em fogo baixo, batendo levemente com um garfo. É simples, barato e muito mais saboroso que molhos industrializados.',
       },
     ],
-    cta: 'Você já experimentou finalizar a massa no molho? Conta como ficou!',
+    cta: 'Você finaliza a massa no molho ou costuma escorrer e despejar o molho por cima? Me conta!',
   },
   {
     id: '15',
-    slug: 'como-fazer-brunch-casa',
-    titulo: 'Como fazer um brunch em casa que impressiona sem estresse',
+    slug: 'brunch-em-casa-sem-estresse-lurdinha',
+    titulo: 'Brunch em casa sem estresse: como receber sem passar a manhã na cozinha',
     emoji: '🥞',
     categoria: 'Receitas para Ocasiões',
     resumo:
-      'Aprenda a organizar um brunch delicioso em casa, com dicas de preparo, cardápio e apresentação para receber amigos e família.',
+      'Veja como montar um brunch caseiro delicioso, com cardápio, preparo antecipado e apresentação que fazem sucesso entre amigos e família.',
     imagem: '/images/artigo-brunch-casa.jpg',
     introducao:
-      'Brunch é a refeição perfeita para reunir amigos e família em um fim de semana descontraído. O segredo está na organização: preparar a maior parte das coisas antes e montar uma mesa convidativa. Neste artigo, vamos mostrar como fazer um brunch em casa sem correria e com muito sabor.',
+      'O brunch nasceu em casa de repente. No aniversário da minha mãe, queria fazer algo diferente do almoço tradicional, mas não queria passar a manhã toda cozinhando. Decidi reunir pães, ovos, frutas e uma mesa bonita. Deu tão certo que virou tradição em datas especiais. Hoje, vou ensinar como montar um brunch em casa sem estresse, com preparação antecipada e um cardápio que agrada todo mundo.',
     secoes: [
       {
-        subtitulo: 'Planeje um cardápio equilibrado',
+        subtitulo: 'Cardápio balanceado e sem exageros',
         texto:
-          'Um bom brunch mistura pratos doces e salgados. Panquecas ou waffles, ovos mexidos, uma salada de frutas, pães e geleias são ótimas escolhas. Escolha no máximo três itens principais para não se perder na cozinha. Dessa forma, você consegue preparar tudo com calma e aproveitar a mesa.',
+          'Escolho no máximo três itens principais para não me perder. Geralmente faço panquecas ou uma fritada de ovos, um pão especial com manteiga e uma salada de frutas. Adiciono geleia caseira, mel e queijo como acompanhamentos. Essa quantidade é suficiente para uma mesa fartasem acumular trabalho. Quanto mais simples, melhor fica a experiência.',
       },
       {
-        subtitulo: 'Prepare o que puder na véspera',
+        subtitulo: 'Prepare tudo o que puder na véspera',
         texto:
-          'Massa de panqueca, geleia caseira, frutas cortadas e sucos podem ser preparados com antecedência. Na hora do brunch, você só precisa aquecer e montar. Isso reduz drasticamente o estresse e permite que você curta a companhia dos convidados.',
+          'A massa da panqueca fica perfeita preparada um dia antes e guardada na geladeira. Frutas cortadas, geleia, suco de laranja e pães também podem ser descongelados ou organizados antecipadamente. Na hora do brunch, só preciso aquecer os ovos e fazer as panquecas. Isso me deixa tranquila para conversar com os convidados.',
       },
       {
-        subtitulo: 'Monte uma mesa bonita',
+        subtitulo: 'Monte uma mesa acolhedora sem gastar muito',
         texto:
-          'A aparência conta muito em um brunch. Use tábuas de madeira para pães e queijos, potes de vidro para geleias e flores ou folhas como decoração. Não precisa ser perfeito: o charme está no aspecto caseiro e acolhedor.',
+          'Uso uma toalha limpa, tábua de madeira para cortes, potes de vidro para geleia e mel e flores do jardim como centro de mesa. Gosto de colocar pratos e copos misturados, porque o charme do brunch é o clima descontraído. Não precisa de louça nova: o importante é a organização e o carinho na arrumação.',
+      },
+      {
+        subtitulo: 'Bebidas que acompanham bem o brunch',
+        texto:
+          'Suco de laranja natural, café passado, chá preto com limão e água aromatizada com morango e manjericão são minhas opções favoritas. Para quem gosta de algo diferente, um cappuccino caseiro ou um smoothie de banana com aveia fica perfeito. Ofereço bebidas à parte para as pessoas se servirem à vontade.',
+      },
+      {
+        subtitulo: 'Erros que cometi nos primeiros brunches',
+        texto:
+          'A primeira vez, preparei muitas opções e acabei desperdiçando comida. Também esqueci de esquentar os pratos para os ovos, que esfriaram rápido. Com o tempo, aprendi que o brunch funciona melhor quando é simples, bem planejado e com hora certa para servir. Recomendo começar a montar a mesa meia hora antes dos convidados chegarem.',
       },
     ],
-    cta: 'Qual item não pode faltar no seu brunch ideal? Conta pra gente!',
+    cta: 'Se você fizesse um brunch amanhã, qual seria o prato principal: panqueca, ovos ou pães?',
   },
   {
     id: '16',
-    slug: 'frutas-estacao-cozinha',
-    titulo: 'Frutas da estação: por que usar e como aproveitar na cozinha',
+    slug: 'frutas-de-cada-estacao-na-minha-cozinha',
+    titulo: 'Frutas de cada estação na minha cozinha: como economizar e comer melhor',
     emoji: '🍓',
     categoria: 'Ingredientes',
     resumo:
-      'Entenda os benefícios de usar frutas da estação e descubra dicas criativas para incluí-las em receitas doces e salgadas.',
+      'Descubra como a Lurdinha aproveita frutas da estação em receitas doces e salgadas, economizando e garantindo sabor e nutrição na mesa.',
     imagem: '/images/artigo-frutas-estacao.jpg',
     introducao:
-      'Usar frutas da estação é uma escolha inteligente para a saúde, o bolso e o planeta. Elas estão mais saborosas, baratas e nutritivas na época certa. Além disso, podem ser exploradas em pratos doces e salgados que surpreendem o paladar. Neste artigo, você vai aprender como aproveitar frutas da estação de formas criativas.',
+      'Cresci indo à feira com a minha avó, e ela sempre dizia: fruta fora da época não tem alma. Com o tempo, entendi o que ela queria dizer. Frutas da estação são mais doces, têm textura melhor, chegam mais baratas e ainda carregam mais nutrientes. Além disso, usar frutas do momento é uma forma de respeitar o tempo da terra e variar o cardápio ao longo do ano. Neste artigo, vou mostrar como incluo frutas da estação no meu dia a dia, desde o café da manhã até receitas salgadas.',
     secoes: [
       {
-        subtitulo: 'Sabores mais intensos e preços melhores',
+        subtitulo: 'Por que frutas da estação valem a pena',
         texto:
-          'Frutas colhidas no auge da safra têm sabor mais concentrado, textura ideal e maior quantidade de nutrientes. Por não dependerem de armazenamento prolongado ou transporte de longa distância, costumam ser mais baratas. Visitar feiras livres é uma ótima forma de encontrar opções frescas e de qualidade.',
+          'Frutas colhidas no auge da safra amadurecem naturalmente e não precisam ser transportadas por longas distâncias. Por isso, têm sabor mais concentrado e preço mais acessível. Morangos no inverno, por exemplo, são caros e sem graça. Já no fim da primavera, ficam doces e perfumados. Comprar frutas no tempo certo é economia garantida.',
       },
       {
-        subtitulo: 'Receitas doces e salgadas',
+        subtitulo: 'Uso frutas em receitas salgadas',
         texto:
-          'Além de sobremesas, frutas podem complementar saladas, molhos e carnes. Manga e manga verde ficam deliciosas em saladas com folhas e queijos. Abacaxi pode ser grelhado e servido com carne suína. Morangos e framboesas combinam com iogurte e aveia no café da manhã.',
+          'Manga verde entra em saladas com folhas e queijo coalho. Abacaxi grelhado acompanha bem carne de porco. Laranja e limão viram molhos para aves e peixes. Maçã adocicada complementa assados de carne suína. Essas combinações trazem frescor e surpreendem o paladar, sem deixar o prato doce demais.',
       },
       {
-        subtitulo: 'Congele para aproveitar o ano todo',
+        subtitulo: 'Sobremesas simples com frutas frescas',
         texto:
-          'Quando uma fruta está em abundância, aproveite para congelar cubos ou polpas. Assim você pode fazer vitaminas, smoothies e molhos mesmo fora da temporada. Lave, descasque, corte em pedaços e embale em saquinhos herméticos.',
+          'Gosto de preparar sobremesas que deixem a fruta brilhar. Banana assada com canela e mel, salada de morango com manjericão, pêssego grelhado com iogurte natural e maçã caramelizada com creme de leite são exemplos fáceis. Não precisa de complicação: a fruta boa já é o protagonista.',
+      },
+      {
+        subtitulo: 'Como congelar para aproveitar o ano todo',
+        texto:
+          'Quando encontro frutas em oferta, compro a mais e congelo. Morango, banana, manga e abacaxi vão lavados, descascados e cortados em saquinhos separados. Uso para vitaminas, smoothies e molhos. Para compotas, cozinho as frutas com açúcar ou mel e congelo em potes pequenos. Assim, tenho sabor de verão até no inverno.',
+      },
+      {
+        subtitulo: 'Frutas preferidas por estação',
+        texto:
+          'No verão, abuso de melão, melancia e manga. No outono, aproveito uva, figo e maçã. No inverno, laranja, tangerina e caqui. Na primavera, morango, pêssego e ameixa. Montar o cardápio em volta dessas frutas deixa a alimentação mais colorida e nutritiva sem forçar o bolso.',
       },
     ],
-    cta: 'Qual fruta da sua região você mais gosta de usar na cozinha? Conta aqui!',
+    cta: 'Qual fruta da sua região você mais gosta de usar na cozinha? Conta para a gente!',
   },
   {
     id: '17',
-    slug: 'truques-saladas-gostosas',
-    titulo: 'Saladas gostosas: truques para nunca mais comer folhas sem graça',
+    slug: 'salada-gostosa-de-verdade-lurdinha',
+    titulo: 'Salada gostosa de verdade: como eu aprendi a amar folhas na minha cozinha',
     emoji: '🥗',
     categoria: 'Técnica de Cozinha',
     resumo:
-      'Aprenda a montar saladas saborosas, crocantes e nutritivas com combinações de texturas, temperos e molhos caseiros.',
+      'Veja como a Lurdinha monta saladas saborosas, nutritivas e capazes de virar refeição completa com molhos caseiros e combinações especiais.',
     imagem: '/images/artigo-saladas-gostosas.jpg',
     introducao:
-      'Muita gente acha salada sem graça porque nunca aprendeu a montar uma salada de verdade. O segredo está na combinação de texturas, cores, temperos e um molho equilibrado. Com os truques certos, a salada passa de acompanhamento sem graça para estrela do prato. Neste artigo, você vai aprender a fazer saladas gostosas de verdade.',
+      'Por muito tempo, salada para mim era alface com tomate e limão. Comia porque fazia bem, mas não com gosto. Só quando comecei a experimentar texturas, molhos e combinações diferentes é que a salada virou um prato que eu realmente queria comer. Hoje, salada entra no almoço e no jantar como refeição completa. Neste artigo, vou mostrar como montar uma salada gostosa de verdade, do molho à montagem final.',
     secoes: [
       {
-        subtitulo: 'Varie as texturas',
+        subtitulo: 'A base faz diferença: escolha folhas com sabor',
         texto:
-          'Uma salada boa tem crocância, maciez e algum toque cremoso ou crocante por cima. Alface e rúcula trazem frescor, castanhas e sementes dão crocância, queijos e abacate trazem cremosidade. Quanto mais contrastes, mais interessante a salada fica.',
+          'Alface crespa é crocante, rúcula tem um leve amargor, agrião dá um toque picante e a couve fininha traz resistência. Eu gosto de misturar duas ou três folhas para criar contraste. Lavar e secar bem é obrigatório: folhas molhadas não seguram o molho e ficam sem graça. Uso centrífuga de salada ou enxugo com pano de prato limpo.',
       },
       {
-        subtitulo: 'Molho caseiro faz toda a diferença',
+        subtitulo: 'Crocância, cremosidade e surpresas no prato',
         texto:
-          'Molho de mostarda e mel, limão com azeite, tahine com limão ou iogurte com ervas são opções simples e deliciosas. Prepare o molho em um pote fechado e regue a salada somente na hora de servir. Folhas molhadas por muito tempo perdem a crocância.',
+          'Cada salada boa tem um elemento crocante, um cremoso e uma surpresa de sabor. Castanhas, sementes ou croutons de pão integral dão a crocância. Abacate, queijo feta ou iogurte grego trazem a cremosidade. Frutas secas, uvas passas ou damasco picado dão o toque doce que equilibra o molho. Quando consigo esses três elementos, a salada fica interessante de verdade.',
       },
       {
-        subtitulo: 'Adicione proteína para virar refeição',
+        subtitulo: 'Molho caseiro: minha receita básica',
         texto:
-          'Para transformar a salada em prato principal, adicione frango grelhado, ovos cozidos, grão-de-bico assado, quinoa ou atum. Assim a salada fica nutritiva e satisfatória, sem deixar qualquer um com fome.',
+          'No liquidificador, coloco um terço de xícara de azeite, duas colheres de sopa de vinagre de maçã, uma colher de chá de mostarda, uma colher de chá de mel, sal e pimenta-do-reino. Bato por trinta segundos e guardo em um pote de vidro. Esse molho dura uma semana na geladeira e fica perfeito com qualquer salada. Outra opção que gosto é iogurte natural com limão, alho picado e ervas.',
+      },
+      {
+        subtitulo: 'Transformando salada em prato principal',
+        texto:
+          'Para fazer da salada uma refeição, adiciono proteína. Filé de frango grelhado em tiras, ovos cozidos cortados ao meio, grão-de-bico assado com páprica, atum em lata ou quinoa cozida são minhas escolhas favoritas. Assim, a salada sustenta e não deixa ninguém com fome. Uma vez por semana, faço uma salada grande de frango desfiado que dura dois dias na geladeira.',
+      },
+      {
+        subtitulo: 'Erros que eu cometi e como evitá-los',
+        texto:
+          'Antes, eu jogava o molho bem antes de servir e a salada murchava. Hoje, só rego na hora de comer. Também exagerava em ingredientes e o prato ficava confuso. Aprendi que menos é mais: três ou quatro complementos são suficientes. Outro erro era não temperar as folhas. Uma pitada de sal e pimenta direto nas folhas antes do molho ajuda o sabor a se espalhar.',
       },
     ],
-    cta: 'Qual ingrediente você nunca imaginou colocar em uma salada? Vamos trocar ideias!',
+    cta: 'Qual o ingrediente estranho que você já colocou em uma salada e deu certo? Conta!',
   },
   {
     id: '18',
-    slug: 'o-poder-ervas-frescas',
-    titulo: 'O poder das ervas frescas: como transformar qualquer prato',
+    slug: 'ervas-frescas-na-minha-cozinha',
+    titulo: 'Ervas frescas na minha cozinha: o segredo para dar vida aos pratos',
     emoji: '🌿',
     categoria: 'Ingredientes',
     resumo:
-      'Descubra como usar ervas frescas no dia a dia para dar sabor, aroma e cor aos pratos sem adicionar calorias.',
+      'Descubra como a Lurdinha usa ervas frescas para aromatizar pratos, conservá-las por mais tempo e criar combinações de sabores memoráveis.',
     imagem: '/images/artigo-ervas-frescas.jpg',
     introducao:
-      'Ervas frescas são um dos ingredientes mais subutilizados na cozinha do dia a dia. Elas têm o poder de transformar pratos simples em experiências aromáticas e saborosas, sem acrescentar calorias. Sálvia, tomilho, manjericão, cebolinha e coentro podem fazer milagres na sua cozinha. Neste artigo, você vai aprender a usar ervas frescas com confiança.',
+      'Quando comecei a cultivar um pequeno vaso de manjericão na janela, minha cozinha mudou. Descobri que ervas frescas são como tempero vivo: trazem aroma, cor e um sabor que nenhum tempero seco consegue copiar. Hoje, tenho salsinha, cebolinha, hortelã, alecrim e tomilho sempre à mão. Neste artigo, vou compartilhar como uso ervas frescas no dia a dia, desde o cozimento até a finalização.',
     secoes: [
       {
-        subtitulo: 'Quando adicionar ervas no cozimento',
+        subtitulo: 'Ervas resistentes vão no fogo, delicadas vão por cima',
         texto:
-          'Ervas mais robustas, como alecrim, tomilho e louro, aguentam o calor e podem ser adicionadas durante o cozimento. Elas liberam o aroma lentamente e aromatizam molhos, sopas e assados. Já ervas delicadas, como manjericão e salsinha, devem ir por último para não perderem o frescor.',
+          'Alecrim, tomilho, louro e sálvia aguentam o calor. Coloco no início do cozimento, em assados, molhos e sopas. Já manjericão, salsinha, cebolinha e coentro perdem o sabor quando expostos ao calor por muito tempo. Por isso, adiciono essas ervas no final, quando o prato já está pronto, para manter o frescor e o aroma.',
       },
       {
-        subtitulo: 'Combinações clássicas que funcionam',
+        subtitulo: 'Combinações que nunca falham na minha casa',
         texto:
-          'Manjericão combina com tomate e mozzarella. Coentro vai bem com pratos mexicanos e asiáticos. Sálvia é perfeita com manteiga e massas recheadas. Hortelã refresca saladas de frutas e drinks. Conhecer essas combinações facilita muito o dia a dia.',
+          'Manjericão com tomate é clássico e perfeito para molhos e caprese. Coentro acompanha comida mexicana, brasileira e tailandesa. Sálvia com manteiga derretida fica divina em massas recheadas. Hortelã vai bem com saladas de frutas, chás e doces. Tomilho e alecrim dão um toque especial em carnes de forno e batatas assadas. Essas combinações me salvam quando não sei o que fazer.',
       },
       {
-        subtitulo: 'Como conservar ervas frescas por mais tempo',
+        subtitulo: 'Como eu conservo ervas frescas por mais tempo',
         texto:
-          'Mantenha ervas em um copo com água na geladeira, como um buquê, ou envolva em papel toalha levemente úmido. Evite deixá-las dentro de sacolas fechadas, que aceleram o apodrecimento. Quando usar, rasgue as folhas com as mãos para liberar mais aroma.',
+          'Para ervas com caule, como salsinha e cebolinha, coloco em um copo com água na geladeira, como um buquê, trocando a água a cada dois dias. Para folhas mais delicadas, como manjericão, envolvo em papel toalha levemente úmido e guardo em um pote fechado. Nunca deixo dentro de sacolas plásticas, porque acumula umidade e apodrece. Quando sobra muito, transformo em pesto ou congelo em azeite em formas de gelo.',
+      },
+      {
+        subtitulo: 'Receita rápida de manteiga de ervas',
+        texto:
+          'Uma das minhas receitas favoritas é a manteiga de ervas: amasso um dente de alho, misturo com duas colheres de sopa de manteiga amolecida, salsinha e cebolinha picadas, sal e pimenta. Uso para passar no pão, finalizar carnes grelhadas ou colocar por cima de batatas assadas. Fica pronta em cinco minutos e dura cinco dias na geladeira.',
+      },
+      {
+        subtitulo: 'Quando usar ervas secas no lugar das frescas',
+        texto:
+          'Ervas secas têm lugar na cozinha, mas funcionam de forma diferente. Uso orégano, tomilho e alecrim secos em pratos longos, como ensopados e assados. Como o sabor é mais concentrado, uso a metade da quantidade em relação às ervas frescas. Salsinha e cebolinha secas entram em caldos e farofas. Mesmo assim, quando tenho a versão fresca disponível, ela ganha.',
       },
     ],
-    cta: 'Qual erva fresca você não vive sem na cozinha? Conta para a Lurdinha!',
+    cta: 'Qual erva fresca você não consegue viver sem na cozinha? Conta para nós!',
   },
   {
     id: '19',
-    slug: 'marmitas-congelaveis',
-    titulo: 'Marmitas congeláveis: organize a semana com sabor e praticidade',
+    slug: 'marmitas-congeladas-que-funcionam',
+    titulo: 'Marmitas congeladas que funcionam: como organizo a semana em uma tarde',
     emoji: '🍱',
     categoria: 'Planejamento de Refeições',
     resumo:
-      'Aprenda a preparar marmitas congeláveis saudáveis, com dicas de armazenamento e receitas que aguentam bem o congelamento.',
+      'Aprenda a preparar marmitas congeladas práticas, saborosas e seguras com as receitas e dicas de armazenamento que a Lurdinha usa semanalmente.',
     imagem: '/images/artigo-marmitas.jpg',
     introducao:
-          'Cozinhar todos os dias pode ser desafiador, mas com marmitas congeláveis você organiza a semana de uma só vez. Além de economizar tempo, você come melhor, gasta menos e evita desperdício. Neste artigo, vamos mostrar como montar marmitas congeláveis saborosas, seguras e práticas para a rotina.',
+      'Há uns anos, minha semana virou um caos de delivery e comida carregada. Até que uma amiga me ensinou o hábito de fazer marmitas congeladas. Demorei para acreditar que congelar comida caseira pudesse ficar boa, mas depois de testar receitas certas, me apaixonei. Hoje, separo uma tarde de domingo para preparar quatro ou cinco marmitas que levam minha família até sexta-feira. Neste artigo, vou contar o que aprendi.',
     secoes: [
       {
-        subtitulo: 'Escolha receitas que congelam bem',
+        subtitulo: 'Receitas que congelam bem e ficam gostosas',
         texto:
-          'Sopas, ensopados, arroz de forno, frango desfiado e feijoada light aguentam bem o congelamento. Evite batatas cozidas e saladas, que perdem textura. Legumes refogados com pouco caldo também ficam ótimos quando descongelados.',
+          'Sopas de legumes, feijoada light, strogonoff de frango, arroz de forno, frango desfiado com molho e carne moída refogada são minhas apostas certeiras. Carnes em molho costumam ficar melhores porque o caldo mantém a umidade. Já saladas, batatas cozidas e frituras não vão bem para o freezer, porque perdem textura. Legumes refogados congelam razoavelmente, desde que estejam al dente.',
       },
       {
-        subtitulo: 'Armazene corretamente',
+        subtitulo: 'Minha rotina de preparo em quatro passos',
         texto:
-          'Use potes herméticos de vidro ou freezers específicos para alimentos. Deixe a marmita esfriar completamente antes de congelar e deixe um espaço no pote para a expansão. Etiquete com nome e data para controlar o prazo de consumo de até 3 meses.',
+          'Primeiro, escolho as receitas e faço a lista de compras. Segundo, separo a tarde para cozinhar três ou quatro pratos diferentes. Terceiro, deixo esfriar completamente antes de armazenar. Quarto, coloco em potes herméticos de vidro, deixando um dedo de espaço para a expansão, e etiqueto com nome e data. Costumo fazer porções individuais para almoço e congelo por até três meses.',
       },
       {
-        subtitulo: 'Descongele com segurança',
+        subtitulo: 'Como descongelar sem perder sabor',
         texto:
-          'A melhor forma de descongelar é transferir a marmita do freezer para a geladeira na noite anterior. Para aquecer, use micro-ondas ou forno, adicionando um pouco de água ou caldo para recuperar a umidade. Mexa no meio do aquecimento para distribuir o calor.',
+          'A melhor forma é passar a marmita do freezer para a geladeira na noite anterior. Para aquecer, uso micro-ondas com uma colher de água ou caldo no fundo, mexendo no meio do tempo. Também posso usar forno: coloco em uma travessa, cubro com papel-alumínio e aqueço por vinte minutos. Isso recupera a umidade e deixa o prato quase como recém-feito.',
+      },
+      {
+        subtitulo: 'Combinações de marmitas que faço em casa',
+        texto:
+          'Arroz integral com frango desfiado e brócolis no vapor. Feijão carioca com carne moída, couve e batata-doce. Macarrão ao molho de salsicha com legumes. Arroz de forno com queijo, presunto e ervilha. Essas são opções que aprovo aqui em casa e que congelam sem perder o sabor. Variação é importante para não enjoar.',
+      },
+      {
+        subtitulo: 'Dicas de segurança alimentar que sigo',
+        texto:
+          'Nunca coloco marmita quente no freezer, porque gera bactérias e aumenta o consumo de energia. Também não recongelo comida já descongelada. Uso potes fechados hermeticamente para evitar ressecamento e gosto de freezer. E, antes de consumir, sempre verifico o cheiro e a aparência. Segurança em primeiro lugar.',
       },
     ],
-    cta: 'Você já tentou fazer marmitas congeláveis? Qual receita deu mais certo?',
+    cta: 'Você já faz marmitas congeladas? Qual a sua receita preferida para congelar?',
   },
   {
     id: '20',
-    slug: 'cozinha-rapida-semana',
-    titulo: 'Cozinha rápida para a semana: jantares prontos em até 30 minutos',
+    slug: 'jantar-rapido-de-semana-lurdinha',
+    titulo: 'Jantar rápido de semana: receitas que eu faço em até 30 minutos',
     emoji: '⏱️',
     categoria: 'Praticidade na Cozinha',
     resumo:
-      'Veja dicas e combinações para preparar refeições rápidas, nutritivas e saborosas durante a semana sem passar horas na cozinha.',
+      'Veja como a Lurdinha prepara jantares nutritivos, saborosos e práticos para a semana sem passar horas na cozinha.',
     imagem: '/images/artigo-cozinha-rapida.jpg',
     introducao:
-          'O dia a dia corrido nem sempre deixa tempo para cozinhar elaborado, mas isso não significa abrir mão de uma refeição gostosa. Com planejamento e técnicas certas, é possível montar jantares nutritivos em até 30 minutos. Neste artigo, você vai aprender a fazer cozinha rápida para a semana sem comer mal.',
+      'Entre trabalho, filhos e compromissos, cozinhar jantar elaborado durante a semana é quase impossível. Por muito tempo, a solução era comida industrializada. Até que criei um conjunto de receitas rápidas que me tiram da fria e ainda são nutritivas. Hoje, consigo colocar jantar na mesa em trinta minutos ou menos. Neste artigo, vou compartilhar minhas estratégias e pratos favoritos.',
     secoes: [
       {
-        subtitulo: 'Mise en place: organize antes de ligar o fogo',
+        subtitulo: 'O mise en place doméstico que funciona',
         texto:
-          'Tenha todos os ingredientes cortados e medidos antes de começar. Assim você cozinha sem parar e economiza tempo. Prepare legumes e temperos no fim de semana e guarde em potes na geladeira. Na hora do preparo, é só juntar tudo.',
+          'No domingo, lavo e corto legumes, tempero carnes e preparo potes com temperos. Na geladeira, deixo cenoura, cebola, pimentão e alho poró já picados. Na hora de cozinhar, é só juntar tudo. Essa organização diminui a preguiça e faz a semana fluir. Outro truque é ter ovos, massas e legumes congelados sempre disponíveis.',
       },
       {
-        subtitulo: 'Aposte em uma panela só',
+        subtitulo: 'Receitas de uma panela só',
         texto:
-          'Receitas de uma panela só reduzem lavar louça e aceleram o cozimento. Macarrão com molho, arroz de forno, refogados e frigideiras completas são ótimas opções. O segredo é cortar ingredientes em tamanhos parecidos para cozinharem uniformemente.',
+          'Macarrão na panela com caldo de legumes, tomate e frango é uma delícia e só suja um utensílio. Arroz de forno montado com sobras da geladeira fica pronto em vinte minutos. Fritada de ovos com legumes e queijo é outro resgate. O segredo é cortar os ingredientes em tamanhos parecidos para cozinharem no mesmo tempo.',
       },
       {
-        subtitulo: 'Ingredientes que salvam o dia',
+        subtitulo: 'Proteínas que cozinham rápido',
         texto:
-          'Ovos, frango desfiado, massas, legumes congelados e conservas de boa qualidade são coringas. Com eles, você monta omeletes, wraps, saladas e pratos quentes em poucos minutos. Sempre tenha um desses itens disponível.',
+          'Filé de peito de frango em tiras, sardinha em lata, ovos e atum são proteínas que ficam prontas em minutos. Grelho o frango com limão e alho, adiciono legumes e fecho com uma tampa por cinco minutos. Ovos cozidos ou fritos salvam qualquer refeição. Cogumelos e grão-de-bico são ótimas opções vegetarianas.',
+      },
+      {
+        subtitulo: 'Molhos prontos que encurtam o caminho',
+        texto:
+          'Mantenho sempre molho de tomate caseiro congelado em porções, pesto no vidro e azeite com alho na geladeira. Com esses três itens, consigo montar massas, arroz e carnes com sabor em pouco tempo. Um molho de mostarda com mel também funciona para dar vida a peitos de frango sem graça.',
+      },
+      {
+        subtitulo: 'Cardápio de uma semana na minha casa',
+        texto:
+          'Segunda: arroz com frango desfiado e legumes. Terça: omelete com espinafre e batatas soutadas. Quarta: macarrão integral ao molho de tomate e almôndegas rápidas. Quinta: sopa de legumes com torradas. Sexta: peixe grelhado com salada e batata-doce. Esse planejamento me ajuda a variar sem perder tempo.',
       },
     ],
-    cta: 'Qual é o seu truque para jantar rápido durante a semana? Compartilhe!',
+    cta: 'Qual é o seu salva-vidas na cozinha quando o dia aperta? Conta para a gente!',
   },
   {
     id: '21',
-    slug: 'plating-embelezar-pratos',
-    titulo: 'Plating: como embelezar pratos caseiros e impressionar na mesa',
+    slug: 'embelezar-pratos-caseiros-lurdinha',
+    titulo: 'Embelezar pratos caseiros: como eu transformo o almoço em uma refeição especial',
     emoji: '🍽️',
     categoria: 'Arte Culinária',
     resumo:
-      'Aprenda técnicas simples de plating para deixar pratos caseiros mais bonitos, convidativos e dignos de foto para as redes sociais.',
+      'Aprenda técnicas simples de empratamento que a Lurdinha usa para deixar pratos caseiros bonitos, convidativos e dignos de fotografia.',
     imagem: '/images/artigo-plating.jpg',
     introducao:
-      'Comer começa pelos olhos. Um prato bem apresentado desperta o apetite e transforma qualquer refeição em algo especial. Felizmente, não é preciso ser chef para embelezar pratos caseiros. Com algumas técnicas simples de plating, você pode servir pratos lindos e convidativos na sua casa. Neste artigo, você vai aprender os princípios básicos para arrasar na apresentação.',
+      'Antes, eu servia a comida direto na panela e cada um se virava. Quando comecei a empratar com um pouco de capricho, percebi que o mesmo prato ganhava outra cara. A apresentação não precisa ser de restaurante sofisticado, basta ter cuidado. Hoje, gosto de servir mesa posta para a família, mesmo no dia a dia. Neste artigo, vou mostrar como embelezar pratos caseiros de forma simples e sem estresse.',
     secoes: [
       {
-        subtitulo: 'Comece com pratos limpos e cores contrastantes',
+        subtitulo: 'O prato certo faz metade do trabalho',
         texto:
-          'Use pratos brancos ou lisos para destacar a comida. Busque contraste de cores: um filé com molho escuro ganha vida com um purê de mandioquinha amarelo e vegetais verdes. Quanto mais colorido o prato, mais apetitoso ele parece.',
+          'Pratos brancos ou em cores claras destacam a comida. Tigelas fundas funcionam para sopas, risotos e açaís. Pratos rasos e amplos são ideais para pratos com mais elementos, como filé com legumes. Tábuas de madeira dão um clima rústico para pães e queijos. Não precisa de louça nova: um prato limpo e sem manchas já é um bom começo.',
       },
       {
-        subtitulo: 'Altura e textura fazem diferença',
+        subtitulo: 'Contraste de cores e altura no prato',
         texto:
-          'Pratos altos chamam mais atenção do que os achatados. Empilhe ingredientes em camadas e adicione toques crocantes, como castanhas, sementes ou ervas frescas por cima. Isso cria interesse visual e textural a cada garfada.',
+          'Tento colocar três cores no prato: o branco do arroz ou purê, o verde dos legumes e o marrom ou vermelho da proteína. Depois, busco dar altura: empilho o purê com uma colher ou coloco o frango levemente inclinado sobre a cama de arroz. Pratos mais altos chamam mais atenção e parecem mais apetitosos.',
       },
       {
-        subtitulo: 'Salsinha e azeite finalizam com charme',
+        subtitulo: 'Texturas e toques finais',
         texto:
-          'Um fio de azeite de qualidade e algumas folhas de salsinha, cebolinha ou manjericão são suficientes para elevar a aparência. Evite polvilhar aleatoriamente: distribua os elementos de forma intencional para um resultado harmonioso.',
+          'Sementes de gergelim, castanhas trituradas, ervas frescas, cebola crispy e um fio de azeite são meus toques finais preferidos. Além de bonitos, adicionam sabor e textura. Polvilho a salsinha picada com as mãos para liberar o aroma. Um fio de redução de balsâmico ou de azeite de oliva ao redor do prato dá um ar de capricho.',
+      },
+      {
+        subtitulo: 'Erros que eu ainda evito',
+        texto:
+          'Nunca emprato a comida muito antes da hora de comer, porque esfria e murcha. Também evito encher o prato até a borda: a comida precisa respirar. Outro erro comum é polvilhar aleatoriamente. Agora, distribuo os elementos de forma intencional. Cada ingrediente no prato tem um lugar.',
+      },
+      {
+        subtitulo: 'Exemplo prático de prato bonito',
+        texto:
+          'Para montar um prato simples, faço uma cama de arroz branco, coloco filé de frango grelhado em tiras sobre o arroz, adiciono brócolis no vapor ao lado, uma concha de molho de mostarda e mel por cima do frango e finalizo com salsinha e amêndoas laminadas. O resultado é colorido, saboroso e leva menos de cinco minutos para montar.',
       },
     ],
-    cta: 'Você se preocupa com a apresentação dos pratos em casa? Conta para nós!',
+    cta: 'Você se preocupa com a apresentação dos pratos em casa? Me conta como você monta a mesa!',
   },
 ];
 
