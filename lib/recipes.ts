@@ -851,7 +851,7 @@ export const recipes: Recipe[] = [
       'Cobertura fica melhor quando esfria um pouco antes de usar',
       'Esses bolos são ótimos para vender ou levar em encontros',
     ],
-    imagem: '/images/placeholder.svg',
+    imagem: '/images/bolo-no-pote.jpg',
     slug: 'bolo-no-pote-lurdinha',
   },
   {
@@ -885,7 +885,7 @@ export const recipes: Recipe[] = [
       'Bater a mistura direitinho evita furinhos no pudim',
       'O pudim fica melhor no dia seguinte',
     ],
-    imagem: '/images/pudim-leite-condensado.jpg',
+    imagem: '/images/pudim-leite.jpg',
     slug: 'pudim-leite-lurdinha',
   },
   {
@@ -925,7 +925,7 @@ export const recipes: Recipe[] = [
       'O pavê fica melhor quando os sabores se integram de um dia para o outro',
       'Pode substituir o chantilly por clara em neve se preferir',
     ],
-    imagem: '/images/pave-chocolate.jpg',
+    imagem: '/images/pave-bolacha.jpg',
     slug: 'pave-bolacha-cremoso',
   },
   {
@@ -961,7 +961,7 @@ export const recipes: Recipe[] = [
       'Pode adicionar coco ralado se gostar',
       'Fica ótimo acompanhado de café com leite',
     ],
-    imagem: '/images/placeholder.svg',
+    imagem: '/images/bolo-milho.jpg',
     slug: 'bolo-milho-cremoso',
   },
   {
@@ -1000,7 +1000,7 @@ export const recipes: Recipe[] = [
       'Não amasse o cuscuz para ele ficar soltinho',
       'Bom a qualquer hora do dia, do café da manhã ao jantar',
     ],
-    imagem: '/images/placeholder.svg',
+    imagem: '/images/cuscuz-recheado.jpg',
     slug: 'cuscuz-recheado-carne',
   },
   {
@@ -1040,7 +1040,7 @@ export const recipes: Recipe[] = [
       'Ferva o feijão sem tampa para não escurecer',
       'Sobra de feijoada congela muito bem',
     ],
-    imagem: '/images/placeholder.svg',
+    imagem: '/images/feijoada-lurdinha.jpg',
     slug: 'feijoada-lurdinha',
   },
   {
@@ -1077,7 +1077,7 @@ export const recipes: Recipe[] = [
       'Rale a cenoura fina para não ficar dura no patê',
       'Dura até 3 dias na geladeira se bem fechado',
     ],
-    imagem: '/images/placeholder.svg',
+    imagem: '/images/pate-frango.jpg',
     slug: 'pate-frango-cenoura',
   },
   {
@@ -1112,7 +1112,7 @@ export const recipes: Recipe[] = [
       'Misture o caramelo logo enquanto está quente',
       'Pode adicionar amendoim torrado para dar crocância',
     ],
-    imagem: '/images/placeholder.svg',
+    imagem: '/images/pipoca-doce.jpg',
     slug: 'pipoca-doce-leite-condensado',
   },
   {
@@ -1147,7 +1147,7 @@ export const recipes: Recipe[] = [
       'Chocolate muito quente pode murchar a pipoca',
       'Armazene em pote fechado para manter a crocância',
     ],
-    imagem: '/images/placeholder.svg',
+    imagem: '/images/pipoca-chocolate.jpg',
     slug: 'pipoca-chocolate-crocante',
   },
   {
@@ -1185,7 +1185,7 @@ export const recipes: Recipe[] = [
       'Bater metade dá cremosidade sem perder o caldo grosso',
       'Fica perfeito com torradas de pão francês',
     ],
-    imagem: '/images/placeholder.svg',
+    imagem: '/images/caldinho-feijao.jpg',
     slug: 'caldinho-feijao-preto',
   },
   {
@@ -1222,7 +1222,7 @@ export const recipes: Recipe[] = [
       'Use camarão bem fresco ou congelado de qualidade',
       'Caldo caseiro de peixe deixa o sabor ainda melhor',
     ],
-    imagem: '/images/placeholder.svg',
+    imagem: '/images/caldinho-camarao.jpg',
     slug: 'caldinho-camarao-coco',
   },
   {
@@ -1258,7 +1258,7 @@ export const recipes: Recipe[] = [
       'Cozinhe a couve pouco para manter a cor verde',
       'Se preferir, troque a calabresa por paio',
     ],
-    imagem: '/images/sopa-abobora-gengibre.jpg',
+    imagem: '/images/caldo-verde.jpg',
     slug: 'caldo-verde-lurdinha',
   },
   {
@@ -1294,7 +1294,7 @@ export const recipes: Recipe[] = [
       'Costela de boi demora, mas dá o sabor especial',
       'Sobra fica ainda melhor no dia seguinte',
     ],
-    imagem: '/images/placeholder.svg',
+    imagem: '/images/caldo-quenga.jpg',
     slug: 'caldo-quenga-lurdinha',
   },
   {
@@ -1331,7 +1331,7 @@ export const recipes: Recipe[] = [
       'Não amasse muito a carne para as almôndegas ficarem macias',
       'Pode congelar cruas e fritar na hora',
     ],
-    imagem: '/images/tacos-carnitas.jpg',
+    imagem: '/images/almondegas.jpg',
     slug: 'almondegas-carne-moida',
   },
 ];
