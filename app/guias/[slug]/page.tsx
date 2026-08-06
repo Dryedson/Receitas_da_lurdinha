@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, MessageCircle, ShoppingBasket, ListChecks } from 'lucide-react';
+import { AdBanner } from '@/components/ads/AdBanner';
 import { getAllEpisodios, getEpisodioBySlug } from '@/lib/series';
 
 interface PageProps {
@@ -92,6 +93,9 @@ export default async function EpisodioPage({ params }: PageProps) {
         <p className="text-lg text-stone-700 leading-relaxed mb-8">
           {episodio.introducao}
         </p>
+
+        {/* Espaço reservado para anúncio - Guia individual */}
+        <AdBanner slot="guia-detalhe" format="horizontal" className="mb-8" />
 
         {/* Ingredientes (exibido apenas em episódios-receita) */}
         {episodio.ingredientes && episodio.ingredientes.length > 0 && (

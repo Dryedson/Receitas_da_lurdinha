@@ -9,6 +9,7 @@ import RecipeCard from '@/components/RecipeCard';
 import CuriosidadeCard from '@/components/CuriosidadeCard';
 import EpisodioCard from '@/components/EpisodioCard';
 import { ChefHat, Clock, Sparkles, ArrowRight, CalendarDays, GraduationCap } from 'lucide-react';
+import { AdBanner } from '@/components/ads/AdBanner';
 
 // Revalida a página a cada 24h. Como os destaques dependem do número da semana,
 // isso garante que a troca automática (a cada 7 dias) seja refletida sem rebuild manual.
@@ -130,6 +131,13 @@ export default function Home() {
               </div>
             )}
           </div>
+        </div>
+      </section>
+
+      {/* Espaço reservado para anúncio - Home (meio da página) */}
+      <section className="px-4 bg-stone-50">
+        <div className="max-w-4xl mx-auto">
+          <AdBanner slot="home-meio" format="horizontal" />
         </div>
       </section>
 
@@ -261,6 +269,13 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Espaço reservado para anúncio - Home (próximo ao final) */}
+      <section className="px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <AdBanner slot="home-final" format="horizontal" />
         </div>
       </section>
 

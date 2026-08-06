@@ -4,6 +4,7 @@
 import type { Metadata } from 'next';
 import { getAllSeries } from '@/lib/series';
 import EpisodioCard from '@/components/EpisodioCard';
+import { AdBanner } from '@/components/ads/AdBanner';
 
 // Metadados específicos desta página para SEO
 export const metadata: Metadata = {
@@ -30,6 +31,9 @@ export default function GuiasPage() {
 
       {/* Conteúdo principal */}
       <div className="max-w-7xl mx-auto px-4 py-12">
+        {/* Espaço reservado para anúncio - Listagem de guias */}
+        <AdBanner slot="guias-lista-topo" format="horizontal" className="mb-8" />
+
         {/* Cada série vira um bloco com seus episódios */}
         <div className="space-y-16">
           {series.map((serie) => (

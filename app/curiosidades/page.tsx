@@ -3,6 +3,7 @@
 import type { Metadata } from 'next';
 import { getAllCuriosidades } from '@/lib/curiosidades';
 import CuriosidadeCard from '@/components/CuriosidadeCard';
+import { AdBanner } from '@/components/ads/AdBanner';
 
 // Metadados específicos desta página para SEO
 export const metadata: Metadata = {
@@ -29,6 +30,9 @@ export default function CuriosidadesPage() {
 
       {/* Conteúdo principal */}
       <div className="max-w-7xl mx-auto px-4 py-12">
+        {/* Espaço reservado para anúncio - Listagem de curiosidades */}
+        <AdBanner slot="curiosidades-lista-topo" format="horizontal" className="mb-8" />
+
         {/* Grid de curiosidades */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {curiosidades.map((curiosidade) => (

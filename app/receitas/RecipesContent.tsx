@@ -8,6 +8,7 @@ import { useSearchParams, useRouter } from 'next/navigation';
 import { getAllRecipes, getAllCategories } from '@/lib/recipes';
 import RecipeCard from '@/components/RecipeCard';
 import { Search } from 'lucide-react';
+import { AdBanner } from '@/components/ads/AdBanner';
 
 export default function RecipesContent() {
   // Obter query params
@@ -126,6 +127,9 @@ export default function RecipesContent() {
           </div>
         </div>
 
+        {/* Espaço reservado para anúncio - Listagem de receitas */}
+        <AdBanner slot="receitas-lista-topo" format="horizontal" className="mb-8" />
+
         {/* Grid de receitas */}
         {filteredRecipes.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -140,6 +144,9 @@ export default function RecipesContent() {
             </p>
           </div>
         )}
+
+        {/* Espaço reservado para anúncio - Final da listagem de receitas */}
+        <AdBanner slot="receitas-lista-final" format="horizontal" className="mt-8" />
 
       </div>
     </>

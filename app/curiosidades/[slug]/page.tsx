@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, MessageCircle } from 'lucide-react';
+import { AdBanner } from '@/components/ads/AdBanner';
 import { getAllCuriosidades, getCuriosidadeBySlug } from '@/lib/curiosidades';
 
 interface PageProps {
@@ -91,6 +92,9 @@ export default async function CuriosidadePage({ params }: PageProps) {
         <p className="text-lg text-stone-700 leading-relaxed mb-8">
           {curiosidade.introducao}
         </p>
+
+        {/* Espaço reservado para anúncio - Curiosidade individual */}
+        <AdBanner slot="curiosidade-detalhe" format="horizontal" className="mb-8" />
 
         {/* Seções do conteúdo */}
         <div className="space-y-8">

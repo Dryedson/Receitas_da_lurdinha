@@ -1,5 +1,7 @@
 // Página Sobre - Design profissional com logo como fundo
 
+import { AdBanner } from '@/components/ads/AdBanner';
+
 export default function AboutPage() {
   return (
     <div className="min-h-screen">
@@ -147,6 +149,11 @@ export default function AboutPage() {
             Entre em Contato
           </a>
         </section>
+      </div>
+
+      {/* Espaço reservado para anúncio - Página Sobre */}
+      <div className="max-w-4xl mx-auto px-4 pb-12">
+        <AdBanner slot="sobre-pagina" format="horizontal" />
       </div>
     </div>
   );

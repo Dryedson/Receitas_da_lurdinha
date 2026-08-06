@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { getRecipeBySlug, getAllRecipes } from '@/lib/recipes';
 import { Clock, Users, ChefHat } from 'lucide-react';
+import { AdBanner } from '@/components/ads/AdBanner';
 import { notFound } from 'next/navigation';
 
 interface PageProps {
@@ -84,6 +85,9 @@ export default async function RecipePage({ params }: PageProps) {
           </div>
         </div>
 
+        {/* Espaço reservado para anúncio - Topo da receita */}
+        <AdBanner slot="receita-detalhe-topo" format="horizontal" className="mb-8" />
+
         {/* Imagem da receita */}
         <div className="mb-8">
           <div className="relative w-full h-96 bg-gray-200 rounded-lg overflow-hidden">
@@ -140,6 +144,9 @@ export default async function RecipePage({ params }: PageProps) {
             </div>
           </div>
         </div>
+
+        {/* Espaço reservado para anúncio - Meio da receita */}
+        <AdBanner slot="receita-detalhe-meio" format="rectangle" className="mb-8" />
 
         {/* Dicas */}
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg mb-8">
