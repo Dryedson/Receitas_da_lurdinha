@@ -18,6 +18,8 @@ export interface Recipe {
   dicas: string[];
   imagem: string;
   slug: string;
+  receitasRelacionadas?: string[]; // IDs de receitas relacionadas (4-5)
+  categoriasRelacionadas?: string[]; // categorias relacionadas
 }
 
 export const recipes: Recipe[] = [
@@ -57,6 +59,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/bolo-chocolate.jpg',
     slug: 'bolo-chocolate-intenso',
+    receitasRelacionadas: ['12', '21', '22', '23'],
+    categoriasRelacionadas: ['Bolos', 'Doces'],
   },
   {
     id: '2',
@@ -93,6 +97,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/frango-grelhado.jpg',
     slug: 'frango-grelhado-tempero-especial',
+    receitasRelacionadas: ['3', '8', '9', '10'],
+    categoriasRelacionadas: ['Pratos Principais', 'Frutos do Mar'],
   },
   {
     id: '3',
@@ -133,6 +139,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/salada-tropical.jpg',
     slug: 'salada-tropical-vinagrete-citrico',
+    receitasRelacionadas: ['2', '8', '9', '10'],
+    categoriasRelacionadas: ['Saladas', 'Pratos Principais'],
   },
   {
     id: '4',
@@ -168,6 +176,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/brigadeiro-cafe.jpg',
     slug: 'brigadeiro-gourmet-cafe',
+    receitasRelacionadas: ['15', '17', '19', '20'],
+    categoriasRelacionadas: ['Doces', 'Bolos'],
   },
   {
     id: '5',
@@ -205,6 +215,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/pasta-carbonara.jpg',
     slug: 'pasta-carbonara-autentica',
+    receitasRelacionadas: ['19', '20', '21', '22'],
+    categoriasRelacionadas: ['Massas', 'Pratos Principais'],
   },
   {
     id: '6',
@@ -245,6 +257,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/sopa-abobora-gengibre.jpg',
     slug: 'sopa-abobora-gengibre',
+    receitasRelacionadas: ['24', '25', '26', '27'],
+    categoriasRelacionadas: ['Sopas', 'Pratos Principais'],
   },
   {
     id: '7',
@@ -285,6 +299,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/cookies-aveia-chocolate.jpg',
     slug: 'cookies-aveia-chocolate',
+    receitasRelacionadas: ['1', '4', '12', '17'],
+    categoriasRelacionadas: ['Biscoitos', 'Doces'],
   },
   {
     id: '8',
@@ -327,6 +343,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/risoto-cogumelos.jpg',
     slug: 'risoto-cogumelos-selvagens',
+    receitasRelacionadas: ['2', '3', '5', '10'],
+    categoriasRelacionadas: ['Pratos Principais', 'Massas'],
   },
   {
     id: '9',
@@ -364,6 +382,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/smoothie-bowl-acai.jpg',
     slug: 'smoothie-bowl-acai',
+    receitasRelacionadas: ['7', '9', '11', '13'],
+    categoriasRelacionadas: ['Café da Manhã', 'Doces'],
   },
   {
     id: '10',
@@ -401,6 +421,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/pao-fermentacao-natural.jpg',
     slug: 'pao-caseiro-fermentacao-natural',
+    receitasRelacionadas: ['7', '9', '11', '13'],
+    categoriasRelacionadas: ['Pães', 'Café da Manhã'],
   },
   {
     id: '11',
@@ -441,6 +463,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/ceviche-peruano.jpg',
     slug: 'ceviche-peruano-tradicional',
+    receitasRelacionadas: ['2', '8', '9', '10'],
+    categoriasRelacionadas: ['Frutos do Mar', 'Pratos Principais'],
   },
   {
     id: '12',
@@ -484,6 +508,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/torta-maca-canela.jpg',
     slug: 'torta-maca-canela',
+    receitasRelacionadas: ['1', '4', '7', '12'],
+    categoriasRelacionadas: ['Bolos', 'Doces'],
   },
   {
     id: '13',
@@ -528,6 +554,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/tacos-carnitas.jpg',
     slug: 'tacos-carnitas-mexicanos',
+    receitasRelacionadas: ['2', '3', '8', '10'],
+    categoriasRelacionadas: ['Pratos Principais', 'Carnes'],
   },
   {
     id: '14',
@@ -569,6 +597,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/quiche-brocolis-queijo.jpg',
     slug: 'quiche-brocolis-queijo',
+    receitasRelacionadas: ['9', '18', '19', '20'],
+    categoriasRelacionadas: ['Pratos Principais', 'Café da Manhã'],
   },
   {
     id: '15',
@@ -606,6 +636,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/pudim-leite-condensado.jpg',
     slug: 'pudim-leite-condensado',
+    receitasRelacionadas: ['4', '12', '17', '21'],
+    categoriasRelacionadas: ['Doces', 'Sobremesas'],
   },
   {
     id: '16',
@@ -646,6 +678,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/steak-molho-vinho.jpg',
     slug: 'steak-molho-vinho-tinto',
+    receitasRelacionadas: ['2', '3', '8', '13'],
+    categoriasRelacionadas: ['Pratos Principais', 'Carnes'],
   },
   {
     id: '17',
@@ -688,6 +722,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/pave-chocolate.jpg',
     slug: 'pave-chocolate',
+    receitasRelacionadas: ['1', '4', '12', '15'],
+    categoriasRelacionadas: ['Doces', 'Sobremesas'],
   },
   {
     id: '18',
@@ -727,6 +763,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/frittata-vegetais.jpg',
     slug: 'frittata-vegetais',
+    receitasRelacionadas: ['3', '9', '14', '18'],
+    categoriasRelacionadas: ['Café da Manhã', 'Pratos Principais'],
   },
   {
     id: '19',
@@ -764,6 +802,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/molho-pesto.jpg',
     slug: 'molho-pesto-caseiro',
+    receitasRelacionadas: ['5', '8', '10', '11'],
+    categoriasRelacionadas: ['Molhos', 'Pratos Principais'],
   },
   {
     id: '20',
@@ -807,6 +847,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/souffle-queijo.jpg',
     slug: 'souffle-queijo',
+    receitasRelacionadas: ['14', '18', '9', '13'],
+    categoriasRelacionadas: ['Pratos Principais', 'Café da Manhã'],
   },
   {
     id: '21',
@@ -849,6 +891,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/bolo-no-pote.jpg',
     slug: 'bolo-no-pote-lurdinha',
+    receitasRelacionadas: ['1', '4', '12', '15'],
+    categoriasRelacionadas: ['Bolos', 'Doces'],
   },
   {
     id: '22',
@@ -883,6 +927,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/pudim-leite.jpg',
     slug: 'pudim-leite-lurdinha',
+    receitasRelacionadas: ['15', '17', '23', '4'],
+    categoriasRelacionadas: ['Doces', 'Sobremesas'],
   },
   {
     id: '23',
@@ -923,6 +969,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/pave-bolacha.jpg',
     slug: 'pave-bolacha-cremoso',
+    receitasRelacionadas: ['17', '15', '21', '4'],
+    categoriasRelacionadas: ['Doces', 'Sobremesas'],
   },
   {
     id: '24',
@@ -959,6 +1007,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/bolo-milho.jpg',
     slug: 'bolo-milho-cremoso',
+    receitasRelacionadas: ['1', '12', '21', '9'],
+    categoriasRelacionadas: ['Bolos', 'Café da Manhã'],
   },
   {
     id: '25',
@@ -998,6 +1048,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/cuscuz-recheado.jpg',
     slug: 'cuscuz-recheado-carne',
+    receitasRelacionadas: ['2', '13', '26', '10'],
+    categoriasRelacionadas: ['Pratos Principais', 'Carnes'],
   },
   {
     id: '26',
@@ -1038,6 +1090,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/feijoada-lurdinha.jpg',
     slug: 'feijoada-lurdinha',
+    receitasRelacionadas: ['25', '2', '13', '16'],
+    categoriasRelacionadas: ['Pratos Principais', 'Carnes'],
   },
   {
     id: '27',
@@ -1075,6 +1129,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/pate-frango.jpg',
     slug: 'pate-frango-cenoura',
+    receitasRelacionadas: ['2', '10', '14', '18'],
+    categoriasRelacionadas: ['Acompanhamentos', 'Pratos Principais'],
   },
   {
     id: '28',
@@ -1110,6 +1166,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/pipoca-doce.jpg',
     slug: 'pipoca-doce-leite-condensado',
+    receitasRelacionadas: ['4', '15', '17', '29'],
+    categoriasRelacionadas: ['Lanches', 'Doces'],
   },
   {
     id: '29',
@@ -1145,6 +1203,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/pipoca-chocolate.jpg',
     slug: 'pipoca-chocolate-crocante',
+    receitasRelacionadas: ['28', '4', '7', '17'],
+    categoriasRelacionadas: ['Lanches', 'Doces'],
   },
   {
     id: '30',
@@ -1183,6 +1243,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/caldinho-feijao.jpg',
     slug: 'caldinho-feijao-preto',
+    receitasRelacionadas: ['26', '31', '32', '6'],
+    categoriasRelacionadas: ['Sopas', 'Pratos Principais'],
   },
   {
     id: '31',
@@ -1220,6 +1282,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/caldinho-camarao.jpg',
     slug: 'caldinho-camarao-coco',
+    receitasRelacionadas: ['30', '11', '32', '6'],
+    categoriasRelacionadas: ['Sopas', 'Frutos do Mar'],
   },
   {
     id: '32',
@@ -1256,6 +1320,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/caldo-verde.jpg',
     slug: 'caldo-verde-lurdinha',
+    receitasRelacionadas: ['30', '31', '33', '6'],
+    categoriasRelacionadas: ['Sopas', 'Pratos Principais'],
   },
   {
     id: '33',
@@ -1292,6 +1358,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/caldo-quenga.jpg',
     slug: 'caldo-quenga-lurdinha',
+    receitasRelacionadas: ['30', '32', '26', '6'],
+    categoriasRelacionadas: ['Sopas', 'Pratos Principais'],
   },
   {
     id: '34',
@@ -1329,6 +1397,8 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/almondegas.jpg',
     slug: 'almondegas-carne-moida',
+    receitasRelacionadas: ['2', '16', '26', '25'],
+    categoriasRelacionadas: ['Pratos Principais', 'Carnes'],
   },
 ];
 

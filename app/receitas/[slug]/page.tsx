@@ -161,6 +161,40 @@ export default async function RecipePage({ params }: PageProps) {
           </ul>
         </div>
 
+        {/* Veja também... - Receitas relacionadas */}
+        {recipe.receitasRelacionadas && recipe.receitasRelacionadas.length > 0 && (
+          <div className="bg-gray-50 p-6 rounded-lg mb-8">
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">Veja também...</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              {recipe.receitasRelacionadas.map((receitaId) => {
+                const relatedRecipe = getAllRecipes().find((r) => r.id === receitaId);
+                if (!relatedRecipe) return null;
+                return (
+                  <Link
+                    key={relatedRecipe.slug}
+                    href={`/receitas/${relatedRecipe.slug}`}
+                    className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition"
+                  >
+                    <div className="relative w-full h-40 bg-gray-200">
+                      <Image
+                        src={relatedRecipe.imagem}
+                        alt={relatedRecipe.titulo}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="p-4">
+                      <p className="text-xs text-orange-600 font-semibold mb-1">{relatedRecipe.categoria}</p>
+                      <h3 className="text-sm font-bold text-gray-800 line-clamp-2 mb-2">{relatedRecipe.titulo}</h3>
+                      <p className="text-xs text-gray-600 line-clamp-2">{relatedRecipe.descricao}</p>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
         {/* Botão voltar */}
         <div className="text-center">
           <Link
