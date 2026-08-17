@@ -82,6 +82,9 @@ export default function Header() {
             <Link href="/guias" className="px-3 py-2 rounded-lg text-stone-700 font-medium hover:bg-amber-50 hover:text-amber-700 transition">
               Guias
             </Link>
+            <Link href="/blog" className="px-3 py-2 rounded-lg text-stone-700 font-medium hover:bg-amber-50 hover:text-amber-700 transition">
+              Blog
+            </Link>
             <Link href="/sobre" className="px-3 py-2 rounded-lg text-stone-700 font-medium hover:bg-amber-50 hover:text-amber-700 transition">
               Sobre
             </Link>
@@ -135,6 +138,9 @@ export default function Header() {
             </Link>
             <Link href="/guias" className="px-3 py-2 rounded-lg text-stone-700 font-medium hover:bg-amber-50 hover:text-amber-700 transition">
               Guias
+            </Link>
+            <Link href="/blog" className="px-3 py-2 rounded-lg text-stone-700 font-medium hover:bg-amber-50 hover:text-amber-700 transition">
+              Blog
             </Link>
             <Link href="/sobre" className="px-3 py-2 rounded-lg text-stone-700 font-medium hover:bg-amber-50 hover:text-amber-700 transition">
               Sobre

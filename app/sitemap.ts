@@ -5,6 +5,7 @@ import { MetadataRoute } from 'next';
 import { getAllRecipes } from '@/lib/recipes';
 import { getAllCuriosidades } from '@/lib/curiosidades';
 import { getAllEpisodios } from '@/lib/series';
+import { getAllBlogPosts } from '@/lib/blog';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Obter todas as receitas
@@ -13,6 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const curiosidades = getAllCuriosidades();
   // Obter todos os episódios das séries/guias
   const episodios = getAllEpisodios();
+  // Obter todos os artigos do blog
+  const blogPosts = getAllBlogPosts();
 
   // URLs estáticas
   const staticUrls: MetadataRoute.Sitemap = [
@@ -36,6 +39,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: 'https://receitasdalurdinha.com.br/guias',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://receitasdalurdinha.com.br/blog',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
@@ -96,6 +105,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  // URLs dinâmicas dos artigos do blog
+  const blogUrls: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+    url: `https://receitasdalurdinha.com.br/blog/${post.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
   // Combinar todas as URLs
-  return [...staticUrls, ...recipeUrls, ...curiosidadeUrls, ...guiaUrls];
+  return [...staticUrls, ...recipeUrls, ...curiosidadeUrls, ...guiaUrls, ...blogUrls];
 }
