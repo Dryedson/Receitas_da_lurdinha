@@ -20,6 +20,9 @@ export interface Recipe {
   slug: string;
   receitasRelacionadas?: string[]; // IDs de receitas relacionadas (4-5)
   categoriasRelacionadas?: string[]; // categorias relacionadas
+  autor: string; // Nome do autor da receita
+  autorBio?: string; // Pequena bio do autor
+  tipo: 'lurdinha' | 'leitor'; // Tipo: receita da Lurdinha ou de leitor
 }
 
 export const recipes: Recipe[] = [
@@ -61,6 +64,8 @@ export const recipes: Recipe[] = [
     slug: 'bolo-chocolate-intenso',
     receitasRelacionadas: ['12', '21', '22', '23'],
     categoriasRelacionadas: ['Bolos', 'Doces'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '2',
@@ -99,6 +104,8 @@ export const recipes: Recipe[] = [
     slug: 'frango-grelhado-tempero-especial',
     receitasRelacionadas: ['3', '8', '9', '10'],
     categoriasRelacionadas: ['Pratos Principais', 'Frutos do Mar'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '3',
@@ -141,6 +148,8 @@ export const recipes: Recipe[] = [
     slug: 'salada-tropical-vinagrete-citrico',
     receitasRelacionadas: ['2', '8', '9', '10'],
     categoriasRelacionadas: ['Saladas', 'Pratos Principais'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '4',
@@ -178,6 +187,8 @@ export const recipes: Recipe[] = [
     slug: 'brigadeiro-gourmet-cafe',
     receitasRelacionadas: ['15', '17', '19', '20'],
     categoriasRelacionadas: ['Doces', 'Bolos'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '5',
@@ -217,6 +228,8 @@ export const recipes: Recipe[] = [
     slug: 'pasta-carbonara-autentica',
     receitasRelacionadas: ['19', '20', '21', '22'],
     categoriasRelacionadas: ['Massas', 'Pratos Principais'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '6',
@@ -259,6 +272,8 @@ export const recipes: Recipe[] = [
     slug: 'sopa-abobora-gengibre',
     receitasRelacionadas: ['24', '25', '26', '27'],
     categoriasRelacionadas: ['Sopas', 'Pratos Principais'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '7',
@@ -301,6 +316,8 @@ export const recipes: Recipe[] = [
     slug: 'cookies-aveia-chocolate',
     receitasRelacionadas: ['1', '4', '12', '17'],
     categoriasRelacionadas: ['Biscoitos', 'Doces'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '8',
@@ -345,6 +362,8 @@ export const recipes: Recipe[] = [
     slug: 'risoto-cogumelos-selvagens',
     receitasRelacionadas: ['2', '3', '5', '10'],
     categoriasRelacionadas: ['Pratos Principais', 'Massas'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '9',
@@ -384,6 +403,8 @@ export const recipes: Recipe[] = [
     slug: 'smoothie-bowl-acai',
     receitasRelacionadas: ['7', '9', '11', '13'],
     categoriasRelacionadas: ['Café da Manhã', 'Doces'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '10',
@@ -423,6 +444,8 @@ export const recipes: Recipe[] = [
     slug: 'pao-caseiro-fermentacao-natural',
     receitasRelacionadas: ['7', '9', '11', '13'],
     categoriasRelacionadas: ['Pães', 'Café da Manhã'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '11',
@@ -465,6 +488,8 @@ export const recipes: Recipe[] = [
     slug: 'ceviche-peruano-tradicional',
     receitasRelacionadas: ['2', '8', '9', '10'],
     categoriasRelacionadas: ['Frutos do Mar', 'Pratos Principais'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '12',
@@ -510,6 +535,8 @@ export const recipes: Recipe[] = [
     slug: 'torta-maca-canela',
     receitasRelacionadas: ['1', '4', '7', '12'],
     categoriasRelacionadas: ['Bolos', 'Doces'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '13',
@@ -556,6 +583,8 @@ export const recipes: Recipe[] = [
     slug: 'tacos-carnitas-mexicanos',
     receitasRelacionadas: ['2', '3', '8', '10'],
     categoriasRelacionadas: ['Pratos Principais', 'Carnes'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '14',
@@ -599,6 +628,8 @@ export const recipes: Recipe[] = [
     slug: 'quiche-brocolis-queijo',
     receitasRelacionadas: ['9', '18', '19', '20'],
     categoriasRelacionadas: ['Pratos Principais', 'Café da Manhã'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '15',
@@ -638,6 +669,8 @@ export const recipes: Recipe[] = [
     slug: 'pudim-leite-condensado',
     receitasRelacionadas: ['4', '12', '17', '21'],
     categoriasRelacionadas: ['Doces', 'Sobremesas'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '16',
@@ -680,6 +713,8 @@ export const recipes: Recipe[] = [
     slug: 'steak-molho-vinho-tinto',
     receitasRelacionadas: ['2', '3', '8', '13'],
     categoriasRelacionadas: ['Pratos Principais', 'Carnes'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '17',
@@ -724,6 +759,8 @@ export const recipes: Recipe[] = [
     slug: 'pave-chocolate',
     receitasRelacionadas: ['1', '4', '12', '15'],
     categoriasRelacionadas: ['Doces', 'Sobremesas'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '18',
@@ -765,6 +802,8 @@ export const recipes: Recipe[] = [
     slug: 'frittata-vegetais',
     receitasRelacionadas: ['3', '9', '14', '18'],
     categoriasRelacionadas: ['Café da Manhã', 'Pratos Principais'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '19',
@@ -804,6 +843,8 @@ export const recipes: Recipe[] = [
     slug: 'molho-pesto-caseiro',
     receitasRelacionadas: ['5', '8', '10', '11'],
     categoriasRelacionadas: ['Molhos', 'Pratos Principais'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '20',
@@ -849,6 +890,8 @@ export const recipes: Recipe[] = [
     slug: 'souffle-queijo',
     receitasRelacionadas: ['14', '18', '9', '13'],
     categoriasRelacionadas: ['Pratos Principais', 'Café da Manhã'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '21',
@@ -893,6 +936,8 @@ export const recipes: Recipe[] = [
     slug: 'bolo-no-pote-lurdinha',
     receitasRelacionadas: ['1', '4', '12', '15'],
     categoriasRelacionadas: ['Bolos', 'Doces'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '22',
@@ -929,6 +974,8 @@ export const recipes: Recipe[] = [
     slug: 'pudim-leite-lurdinha',
     receitasRelacionadas: ['15', '17', '23', '4'],
     categoriasRelacionadas: ['Doces', 'Sobremesas'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '23',
@@ -971,6 +1018,8 @@ export const recipes: Recipe[] = [
     slug: 'pave-bolacha-cremoso',
     receitasRelacionadas: ['17', '15', '21', '4'],
     categoriasRelacionadas: ['Doces', 'Sobremesas'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '24',
@@ -1009,6 +1058,8 @@ export const recipes: Recipe[] = [
     slug: 'bolo-milho-cremoso',
     receitasRelacionadas: ['1', '12', '21', '9'],
     categoriasRelacionadas: ['Bolos', 'Café da Manhã'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '25',
@@ -1050,6 +1101,8 @@ export const recipes: Recipe[] = [
     slug: 'cuscuz-recheado-carne',
     receitasRelacionadas: ['2', '13', '26', '10'],
     categoriasRelacionadas: ['Pratos Principais', 'Carnes'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '26',
@@ -1092,6 +1145,8 @@ export const recipes: Recipe[] = [
     slug: 'feijoada-lurdinha',
     receitasRelacionadas: ['25', '2', '13', '16'],
     categoriasRelacionadas: ['Pratos Principais', 'Carnes'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '27',
@@ -1131,6 +1186,8 @@ export const recipes: Recipe[] = [
     slug: 'pate-frango-cenoura',
     receitasRelacionadas: ['2', '10', '14', '18'],
     categoriasRelacionadas: ['Acompanhamentos', 'Pratos Principais'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '28',
@@ -1168,6 +1225,8 @@ export const recipes: Recipe[] = [
     slug: 'pipoca-doce-leite-condensado',
     receitasRelacionadas: ['4', '15', '17', '29'],
     categoriasRelacionadas: ['Lanches', 'Doces'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '29',
@@ -1205,6 +1264,8 @@ export const recipes: Recipe[] = [
     slug: 'pipoca-chocolate-crocante',
     receitasRelacionadas: ['28', '4', '7', '17'],
     categoriasRelacionadas: ['Lanches', 'Doces'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '30',
@@ -1245,6 +1306,8 @@ export const recipes: Recipe[] = [
     slug: 'caldinho-feijao-preto',
     receitasRelacionadas: ['26', '31', '32', '6'],
     categoriasRelacionadas: ['Sopas', 'Pratos Principais'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '31',
@@ -1284,6 +1347,8 @@ export const recipes: Recipe[] = [
     slug: 'caldinho-camarao-coco',
     receitasRelacionadas: ['30', '11', '32', '6'],
     categoriasRelacionadas: ['Sopas', 'Frutos do Mar'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '32',
@@ -1322,6 +1387,8 @@ export const recipes: Recipe[] = [
     slug: 'caldo-verde-lurdinha',
     receitasRelacionadas: ['30', '31', '33', '6'],
     categoriasRelacionadas: ['Sopas', 'Pratos Principais'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '33',
@@ -1360,6 +1427,8 @@ export const recipes: Recipe[] = [
     slug: 'caldo-quenga-lurdinha',
     receitasRelacionadas: ['30', '32', '26', '6'],
     categoriasRelacionadas: ['Sopas', 'Pratos Principais'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
   {
     id: '34',
@@ -1397,8 +1466,10 @@ export const recipes: Recipe[] = [
     ],
     imagem: '/images/almondegas.jpg',
     slug: 'almondegas-carne-moida',
-    receitasRelacionadas: ['2', '16', '26', '25'],
+    receitasRelacionadas: ['2', '13', '16', '25'],
     categoriasRelacionadas: ['Pratos Principais', 'Carnes'],
+    autor: 'Lurdinha',
+    tipo: 'lurdinha',
   },
 ];
 
