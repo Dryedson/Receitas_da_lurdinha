@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, MessageCircle } from 'lucide-react';
 import { AdBanner } from '@/components/ads/AdBanner';
+import { DisqusComments } from '@/components/DisqusComments';
 import { getAllCuriosidades, getCuriosidadeBySlug } from '@/lib/curiosidades';
 
 interface PageProps {
@@ -133,8 +134,18 @@ export default async function CuriosidadePage({ params }: PageProps) {
           </div>
         </div>
 
+        {/* Seção de comentários */}
+        <div className="border-t border-gray-200 pt-12 mt-12">
+          <h3 className="text-2xl font-bold text-gray-800 mb-6">Comentários</h3>
+          <DisqusComments
+            identifier={`curiosidade-${curiosidade.id}`}
+            title={curiosidade.titulo}
+            url={`https://receitasdalurdinha.com.br/curiosidades/${curiosidade.slug}`}
+          />
+        </div>
+
         {/* Botão para voltar à listagem */}
-        <div className="text-center mt-10">
+        <div className="text-center mt-12">
           <Link
             href="/curiosidades"
             className="inline-flex items-center gap-2 bg-amber-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-amber-700 transition"

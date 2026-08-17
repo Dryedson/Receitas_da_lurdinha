@@ -50,6 +50,8 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7899668800681577"
           crossOrigin="anonymous"
         ></script>
+        {/* Disqus - Sistema de comentários */}
+        <script id="dsq-count-scr" src="https://receitas-da-lurdinha.disqus.com/count.js" async></script>
       </head>
       <body className="min-h-full flex flex-col" style={{ backgroundColor: 'var(--background)' }}>
         <Header />

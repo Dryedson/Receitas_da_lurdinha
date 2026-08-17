@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { getBlogPostBySlug, getAllBlogPosts } from '@/lib/blog';
 import { getAllRecipes } from '@/lib/recipes';
 import { AdBanner } from '@/components/ads/AdBanner';
+import { DisqusComments } from '@/components/DisqusComments';
 import { notFound } from 'next/navigation';
 import { Calendar, Clock, User, ArrowLeft } from 'lucide-react';
 
@@ -151,8 +152,18 @@ export default async function BlogPostPage({ params }: PageProps) {
           </div>
         )}
 
+        {/* Seção de comentários */}
+        <div className="border-t border-gray-200 pt-12 mt-12">
+          <h3 className="text-2xl font-bold text-gray-800 mb-6">Comentários</h3>
+          <DisqusComments
+            identifier={`blog-${post.id}`}
+            title={post.titulo}
+            url={`https://receitasdalurdinha.com.br/blog/${post.slug}`}
+          />
+        </div>
+
         {/* Botão voltar */}
-        <div className="text-center">
+        <div className="text-center mt-12">
           <Link
             href="/blog"
             className="inline-flex items-center gap-2 bg-orange-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-orange-600 transition"
